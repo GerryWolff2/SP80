@@ -1,7 +1,7 @@
 # SP80
 This first version of SP80 is the same as the SP71 computer model but has been revised to take account of changes to MS Visual Studio and changes to VS C++ between 2005 and 2020.
 
-The most detailed descriptions of the thinking behind the SP71 computer model is in the book "UNIFYING COMPUTING AND COGNITION: The SP Theory and its Applications", described in http://www.cognitionresearch.org/books/sp_book/fly_leaf.htm . To be precise, the book describes version SP70 of the program, but this is very similar to SP71.
+The most detailed descriptions of the thinking behind the SP Theory of Intelligence and its realisation in the SP Computer Model (SP71) is in the book "UNIFYING COMPUTING AND COGNITION: The SP Theory and its Applications", described in http://www.cognitionresearch.org/books/sp_book/fly_leaf.htm . To be precise, the book describes version SP70 of the program, but this is very similar to SP71.
 
 In the book, the main chapters to look at are Chapters 3 and 9 but there is lots of relevant information in the rest of the book. 
 
