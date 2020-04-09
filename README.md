@@ -1,2 +1,2 @@
 # SP80
-Continuing development of the SP Computer Model from what was achieved in SP71.
+This first version of SP80 is the same as the SP71 computer model but has been revised to take account of changes to MS Visual Studio and changes to C++ that is provided in VS between 2005 and 2020.
