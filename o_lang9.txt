@@ -1,0 +1,2286 @@
+SP71 version 9.0. Copyright (C) 2020 J G Wolff.
+This program is released to the public domain without
+any restrictions. You can redistribute it and/or modify
+it as you wish. Please retain this notice on all
+versions and acknowledge J G Wolff as the originator
+of the program in all publications.
+
+RESULTS FROM SP71, VERSION 9.0
+
+Time: 18:21, Saturday, April 04, 2020
+
+INPUT FILE: lang9.txt
+
+MINIMUM_FONT_HEIGHT is 12.00 pt
+
+MAXIMUM_FONT_HEIGHT changed from 18.00 pt to 17.28 pt
+
+PARAMETERS:
+
+PROBABILITIES = 0
+
+SHOW_AL_STRUCTURE = 0
+
+SHOW_HIT_STRUCTURE = 0
+
+SHOW_UNSELECTED_ALIGNMENTS = 0
+
+VERBOSE = 0
+
+USE_ABBREVIATIONS = 0
+
+SHOW_ALL_PARSING_ALIGNMENTS = 1
+
+ID_C_SYMBOL_CONSTRAINT = 1
+
+ALIGNMENT_FORMAT = H
+
+HIT_STRUCTURE_ROWS = 20000
+
+FAIL_SCORE = -100
+
+COST_FACTOR = 100.00
+
+KEEP_ROWS = 50
+
+FULL_ALIGNMENT_LIMIT = 30
+
+GRAMMAR_LIMIT = 30
+
+EXTRACTION_LIMIT = 10
+
+FIGURE_ID = 0
+
+COMBINATION_LIMIT = 10
+
+MAX_OLD_GAP = 100
+
+MAX_DRIVING_GAP = 100
+
+MAX_TARGET_GAP = 100
+
+MAX_UNSUPPORTED_CYCLES = 5
+
+MAX_ALIGNMENTS_IN_ONE_CYCLE = 10000
+
+ORIENTATION = 0
+
+WRITE_AL_CHARS_LENGTH = 1000
+
+WRITE_SECTION_CHARS_LENGTH = 80
+
+MINIMUM_FONT_SIZE = 12.00
+
+MAXIMUM_FONT_SIZE = 17.28
+
+N_GRAMMARS = 5
+
+CREATE_PATTERNS_DIAGNOSTIC = 0
+
+Corpus loaded successfully.
+
+MAX_ALIGNMENT_LENGTH = 200
+
+KEY
+
+
+END KEY
+
+THE WHOLE CORPUS (INCL. FREQUENCIES GREATER THAN ONE)
+
+NEW PATTERNS:
+
+ID1 (j o h n r u n s)*1
+
+ID2 (m a r y r u n s)*1
+
+ID3 (j o h n w a l k s)*1
+
+ID4 (m a r y w a l k s)*1
+
+OLD PATTERNS: None
+
+Original alphabet size = 13
+
+FREQUENCIES OF SYMBOL TYPES IN CORPUS (NORMALLY JUST NEW PATTERNS)
+AND INFORMATION COSTS (IN BITS)
+
+a, Fr = 1, bit_cost = 370.04
+h, Fr = 1, bit_cost = 370.04
+j, Fr = 1, bit_cost = 370.04
+k, Fr = 1, bit_cost = 370.04
+l, Fr = 1, bit_cost = 370.04
+m, Fr = 1, bit_cost = 370.04
+n, Fr = 1, bit_cost = 370.04
+o, Fr = 1, bit_cost = 370.04
+r, Fr = 1, bit_cost = 370.04
+s, Fr = 1, bit_cost = 370.04
+u, Fr = 1, bit_cost = 370.04
+w, Fr = 1, bit_cost = 370.04
+y, Fr = 1, bit_cost = 370.04
+
+Average of bit_costs for symbol types = 370.04
+
+NEW FREQUENCIES AND COSTS ASSIGNED TO PATTERNS AND SYMBOLS:
+
+Size of corpus at start: 1.3e+04
+
+PATTERNS IN NEW:
+
+ID1 No coding cost (j o h n r u n s)*1
+
+ID1 (j o h n r u n s)*1
+
+j (fr = 1, 370.04, DATA, ID), o (fr = 1, 370.04, DATA, ID), 
+h (fr = 1, 370.04, DATA, ID), n (fr = 1, 370.04, DATA, ID), 
+r (fr = 1, 370.04, DATA, ID), u (fr = 1, 370.04, DATA, ID), 
+n (fr = 1, 370.04, DATA, ID), s (fr = 1, 370.04, DATA, ID), frequency = 1.
+
+ID2 No coding cost (m a r y r u n s)*1
+
+ID2 (m a r y r u n s)*1
+
+m (fr = 1, 370.04, DATA, ID), a (fr = 1, 370.04, DATA, ID), 
+r (fr = 1, 370.04, DATA, ID), y (fr = 1, 370.04, DATA, ID), 
+r (fr = 1, 370.04, DATA, ID), u (fr = 1, 370.04, DATA, ID), 
+n (fr = 1, 370.04, DATA, ID), s (fr = 1, 370.04, DATA, ID), frequency = 1.
+
+ID3 No coding cost (j o h n w a l k s)*1
+
+ID3 (j o h n w a l k s)*1
+
+j (fr = 1, 370.04, DATA, ID), o (fr = 1, 370.04, DATA, ID), 
+h (fr = 1, 370.04, DATA, ID), n (fr = 1, 370.04, DATA, ID), 
+w (fr = 1, 370.04, DATA, ID), a (fr = 1, 370.04, DATA, ID), 
+l (fr = 1, 370.04, DATA, ID), k (fr = 1, 370.04, DATA, ID), 
+s (fr = 1, 370.04, DATA, ID), frequency = 1.
+
+ID4 No coding cost (m a r y w a l k s)*1
+
+ID4 (m a r y w a l k s)*1
+
+m (fr = 1, 370.04, DATA, ID), a (fr = 1, 370.04, DATA, ID), 
+r (fr = 1, 370.04, DATA, ID), y (fr = 1, 370.04, DATA, ID), 
+w (fr = 1, 370.04, DATA, ID), a (fr = 1, 370.04, DATA, ID), 
+l (fr = 1, 370.04, DATA, ID), k (fr = 1, 370.04, DATA, ID), 
+s (fr = 1, 370.04, DATA, ID), frequency = 1.
+
+Size of New (symbols): 34
+Size of New (patterns): 4
+
+ORIGINAL PATTERNS IN OLD:
+
+NONE
+
+Size of Old (symbols): 0
+Size of Old (patterns): 0
+
+START OF PARSING AND LEARNING
+
+NEXT PATTERN FROM NEW:
+
+ID1 (j o h n r u n s)*1
+
+j (fr = 1, 370.04, DATA, ID), o (fr = 1, 370.04, DATA, ID), 
+h (fr = 1, 370.04, DATA, ID), n (fr = 1, 370.04, DATA, ID), 
+r (fr = 1, 370.04, DATA, ID), u (fr = 1, 370.04, DATA, ID), 
+n (fr = 1, 370.04, DATA, ID), s (fr = 1, 370.04, DATA, ID), frequency = 1.
+
+PHASE 1
+
+START OF PATTERN ID1, CYCLE 1, PHASE 1:
+
+NEXT DRIVING PATTERN (PATTERN ID1, CYCLE 1, PHASE 1)
+
+ID1 (j o h n r u n s)*1
+
+Receptacle pattern: ID5 (< #1 j o h n r u n s >)*1
+
+< (fr = 1, 2.00, LB, BM), #1 (fr = 1, 4.00, UID, ID), 
+j (fr = 1, 370.04, DATA, CN), o (fr = 1, 370.04, DATA, CN), 
+h (fr = 1, 370.04, DATA, CN), n (fr = 1, 370.04, DATA, CN), 
+r (fr = 1, 370.04, DATA, CN), u (fr = 1, 370.04, DATA, CN), 
+n (fr = 1, 370.04, DATA, CN), s (fr = 1, 370.04, DATA, CN), 
+> (fr = 1, 2.00, RB, BM), frequency = 1.
+
+STARTING make_alignments (PATTERN ID1, CYCLE 1, PHASE 1)
+
+FINISHED make_alignments (PATTERN ID1, CYCLE 1, PHASE 1)
+
+FOR PATTERN ID1, CYCLE 1, PHASE 1,
+THE MAXIMUM NUMBER OF ENTRIES IN A COLUMN OF symbol_selection_array[][] IS 1
+
+STARTING purge_parsing_alignments (PATTERN ID1, CYCLE 1, PHASE 1)
+
+Number of alignments purged = 0
+
+FINISHED purge_parsing_alignments (PATTERN ID1, CYCLE 1, PHASE 1)
+
+SELECTED SET OF ALIGNMENTS FORMED IN PATTERN ID1, CYCLE 1, PHASE 1
+
+SELECTED ALIGNMENT (PATTERN ID1, CYCLE 1, PHASE 1)
+
+ID6: NSC = 370.04, EC = 4.00, CR = 92.51, CD = 366.04,
+Absolute P = 0.0625
+
+0 j o h n r u n s         0
+              |          
+1 < #1 j o h  n r u n s > 1
+
+Sequence ID6 as flat pattern:
+
+ID6 (< #1 j o h n r u n s >)*1
+
+NSC = 370.04, EC = 4.00, CR = 92.51, CD = 366.04
+
+< (fr = 1, 2.00, LB, BM), #1 (fr = 1, 4.00, UID, ID), 
+j (fr = 1, 370.04, DATA, CN), o (fr = 1, 370.04, DATA, CN), 
+h (fr = 1, 370.04, DATA, CN), n (fr = 1, 370.04, DATA, CN), 
+r (fr = 1, 370.04, DATA, CN), u (fr = 1, 370.04, DATA, CN), 
+n (fr = 1, 370.04, DATA, CN), s (fr = 1, 370.04, DATA, CN), 
+> (fr = 1, 2.00, RB, BM), frequency = 1.
+
+In the following lists, alignments that are new on this cycle
+are marked with an asterisk ('*').
+
+SELECTED ALIGNMENTS FROM PATTERN ID1, CYCLE 1, PHASE 1
+
+NO FULL_A ALIGNMENTS FROM PATTERN ID1, CYCLE 1, PHASE 1
+
+NO FULL_B ALIGNMENTS FROM PATTERN ID1, CYCLE 1, PHASE 1
+
+SELECTED PARTIAL ALIGNMENTS FROM PATTERN ID1, CYCLE 1, PHASE 1
+
+ID6*
+
+END OF PATTERN ID1, CYCLE 1, PHASE 1
+
+Start of learning:
+(PATTERN ID1, CYCLE 1, PHASE 1)
+
+Learning from alignment ID6 (PATTERN ID1, PHASE 1):
+
+0 j o h n r u n s         0
+              |          
+1 < #1 j o h  n r u n s > 1
+
+From current_new_pattern ID1,
+the 'receptacle' pattern stored in Old is:
+
+ID5 (< #1 j o h n r u n s >)*1
+
+< (fr = 1, 2.00, LB, BM), #1 (fr = 1, 4.00, UID, ID), 
+j (fr = 1, 370.04, DATA, CN), o (fr = 1, 370.04, DATA, CN), 
+h (fr = 1, 370.04, DATA, CN), n (fr = 1, 370.04, DATA, CN), 
+r (fr = 1, 370.04, DATA, CN), u (fr = 1, 370.04, DATA, CN), 
+n (fr = 1, 370.04, DATA, CN), s (fr = 1, 370.04, DATA, CN), 
+> (fr = 1, 2.00, RB, BM), frequency = 1.
+
+End of learning: (PATTERN ID1, PHASE 1)
+
+OLD PATTERNS AFTER LEARNING AND WITH GENERALISATIONS:
+
+ID5: (< #1 j o h n r u n s >)*1
+
+OLD PATTERNS WITH DETAILS: (PATTERN ID1, PHASE 1)
+
+ID5 Coding cost: 4.00, (< #1 j o h n r u n s >)*1
+
+ID5 (< #1 j o h n r u n s >)*1
+
+< (fr = 1, 2.00, LB, BM), #1 (fr = 1, 4.00, UID, ID), 
+j (fr = 1, 370.04, DATA, CN), o (fr = 1, 370.04, DATA, CN), 
+h (fr = 1, 370.04, DATA, CN), n (fr = 1, 370.04, DATA, CN), 
+r (fr = 1, 370.04, DATA, CN), u (fr = 1, 370.04, DATA, CN), 
+n (fr = 1, 370.04, DATA, CN), s (fr = 1, 370.04, DATA, CN), 
+> (fr = 1, 2.00, RB, BM), frequency = 1.
+
+PHASE 2
+
+CURRENT PATTERN FROM NEW:
+
+ID1 (j o h n r u n s)*1
+
+j (fr = 1, 370.04, DATA, ID), o (fr = 1, 370.04, DATA, ID), 
+h (fr = 1, 370.04, DATA, ID), n (fr = 1, 370.04, DATA, ID), 
+r (fr = 1, 370.04, DATA, ID), u (fr = 1, 370.04, DATA, ID), 
+n (fr = 1, 370.04, DATA, ID), s (fr = 1, 370.04, DATA, ID), frequency = 1.
+
+START OF PATTERN ID1 (ID1), CYCLE 1, PHASE 2:
+
+NEXT DRIVING PATTERN (PATTERN ID1 (ID1), CYCLE 1, PHASE 2)
+
+ID1 (j o h n r u n s)*1
+
+STARTING make_alignments (PATTERN ID1 (ID1), CYCLE 1, PHASE 2)
+
+FINISHED make_alignments (PATTERN ID1 (ID1), CYCLE 1, PHASE 2)
+
+FOR PATTERN ID1 (ID1), CYCLE 1, PHASE 2,
+THE MAXIMUM NUMBER OF ENTRIES IN A COLUMN OF symbol_selection_array[][] IS 1
+
+STARTING purge_parsing_alignments (PATTERN ID1 (ID1), CYCLE 1, PHASE 2)
+
+Number of alignments purged = 2
+
+FINISHED purge_parsing_alignments (PATTERN ID1 (ID1), CYCLE 1, PHASE 2)
+
+SELECTED SET OF ALIGNMENTS FORMED IN PATTERN ID1 (ID1), CYCLE 1, PHASE 2
+
+SELECTED ALIGNMENT (PATTERN ID1 (ID1), CYCLE 1, PHASE 2)
+
+ID7: NSC = 2960.35, EC = 4.00, CR = 740.09, CD = 2956.35,
+Absolute P = 0.0625
+
+0      j o h n r u n s   0
+       | | | | | | | |  
+1 < #1 j o h n r u n s > 1
+
+Sequence ID7 as flat pattern:
+
+ID7 (< #1 j o h n r u n s >)*1
+
+NSC = 2960.35, EC = 4.00, CR = 740.09, CD = 2956.35
+
+< (fr = 1, 2.00, LB, BM), #1 (fr = 1, 4.00, UID, ID), 
+j (fr = 1, 370.04, DATA, CN), o (fr = 1, 370.04, DATA, CN), 
+h (fr = 1, 370.04, DATA, CN), n (fr = 1, 370.04, DATA, CN), 
+r (fr = 1, 370.04, DATA, CN), u (fr = 1, 370.04, DATA, CN), 
+n (fr = 1, 370.04, DATA, CN), s (fr = 1, 370.04, DATA, CN), 
+> (fr = 1, 2.00, RB, BM), frequency = 1.
+
+In the following lists, alignments that are new on this cycle
+are marked with an asterisk ('*').
+
+SELECTED ALIGNMENTS FROM PATTERN ID1 (ID1), CYCLE 1, PHASE 2
+
+SELECTED FULL ALIGNMENTS (A) FROM PATTERN ID1 (ID1), CYCLE 1, PHASE 2
+
+ID7*
+
+NO FULL_B ALIGNMENTS FROM PATTERN ID1 (ID1), CYCLE 1, PHASE 2
+
+NO PARTIAL ALIGNMENTS FROM PATTERN ID1 (ID1), CYCLE 1, PHASE 2
+
+END OF PATTERN ID1 (ID1), CYCLE 1, PHASE 2
+
+START OF PATTERN ID1 (ID1), CYCLE 2, PHASE 2:
+
+NEXT DRIVING PATTERN (PATTERN ID1 (ID1), CYCLE 2, PHASE 2)
+
+ID7 (< #1 j o h n r u n s >)*1
+
+FOR PATTERN ID1 (ID1), CYCLE 2, PHASE 2, NO HIT SEQUENCES HAVE BEEN FOUND.
+
+Full alignments for New pattern ID1 (PATTERN ID1 (ID1), CYCLE 2, PHASE 2)
+
+FULL_A
+
+FULL_B
+
+FULL_C
+
+START OF SIFTING AND SORTING (PATTERN ID1, PHASE 2)
+
+CUMULATIVE 'FULL_A' ALIGNMENTS FROM PARSING (PATTERN ID1, PHASE 2):
+
+PATTERNS IN OLD (PATTERN ID1, PHASE 2):
+
+ID5 (< #1 j o h n r u n s >)*0
+
+FREQUENCIES OF SYMBOL TYPES IN OLD PATTERNS
+AND INFORMATION COSTS (IN BITS)
+(PATTERN ID1, PHASE 2)
+
+#1, Fr = 0, bit_cost = 370.04
+<, Fr = 0, bit_cost = 370.04
+>, Fr = 0, bit_cost = 370.04
+h, Fr = 0, bit_cost = 37004.40
+j, Fr = 0, bit_cost = 37004.40
+n, Fr = 0, bit_cost = 37004.40
+o, Fr = 0, bit_cost = 37004.40
+r, Fr = 0, bit_cost = 37004.40
+s, Fr = 0, bit_cost = 37004.40
+u, Fr = 0, bit_cost = 37004.40
+
+Average of bit_costs for symbol types = 26014.09
+
+NEW FREQUENCIES AND COSTS ASSIGNED TO PATTERNS AND SYMBOLS:
+
+OLD PATTERNS WITH DETAILS (PATTERN ID1, PHASE 2)
+
+ID5 Coding cost: 4.00, (<*0 #1*0 j*0 o*0 h*0 n*0 r*0 u*0 n*0 s*0 >*0)*0
+
+ID5 (< #1 j o h n r u n s >)*0
+
+< (fr = 0, 370.04, LB, BM), #1 (fr = 0, 370.04, UID, ID), 
+j (fr = 0, 37004.40, DATA, CN), o (fr = 0, 37004.40, DATA, CN), 
+h (fr = 0, 37004.40, DATA, CN), n (fr = 0, 37004.40, DATA, CN), 
+r (fr = 0, 37004.40, DATA, CN), u (fr = 0, 37004.40, DATA, CN), 
+n (fr = 0, 37004.40, DATA, CN), s (fr = 0, 37004.40, DATA, CN), 
+> (fr = 0, 370.04, RB, BM), frequency = 0.
+
+START OF COMPILING ALTERNATIVE GRAMMARS:
+
+Encoding costs for New patterns:
+
+ID1: 296035.18 (j o h n r u n s)
+
+Encoding costs for Old patterns:
+
+ID5: 370.04 (< #1 j o h n r u n s >)*0
+
+Cumulative parsing alignments in order of CD:
+
+
+FINAL GRAMMARS (PATTERN ID1, PHASE 2):
+
+No grammars formed.
+
+Start of purge_old_patterns()
+
+There is no best grammar so no patterns to be purged.
+
+END OF SIFTING AND SORTING (PATTERN ID1, PHASE 2)
+
+All alignments are deleted ready for next New pattern.
+
+END OF PATTERN ID1, PHASE 2
+
+OLD PATTERNS:
+
+ID5: (< #1 j o h n r u n s >)*0
+
+NEXT PATTERN FROM NEW:
+
+ID2 (m a r y r u n s)*1
+
+m (fr = 1, 370.04, DATA, ID), a (fr = 1, 370.04, DATA, ID), 
+r (fr = 0, 37004.40, DATA, ID), y (fr = 1, 370.04, DATA, ID), 
+r (fr = 0, 37004.40, DATA, ID), u (fr = 0, 37004.40, DATA, ID), 
+n (fr = 0, 37004.40, DATA, ID), s (fr = 0, 37004.40, DATA, ID), frequency = 1.
+
+PHASE 1
+
+START OF PATTERN ID2, CYCLE 1, PHASE 1:
+
+NEXT DRIVING PATTERN (PATTERN ID2, CYCLE 1, PHASE 1)
+
+ID2 (m a r y r u n s)*1
+
+Receptacle pattern: ID10 (< #2 m a r y r u n s >)*1
+
+< (fr = 0, 370.04, LB, BM), #2 (fr = 1, 370.04, UID, ID), 
+m (fr = 1, 370.04, DATA, CN), a (fr = 1, 370.04, DATA, CN), 
+r (fr = 0, 37004.40, DATA, CN), y (fr = 1, 370.04, DATA, CN), 
+r (fr = 0, 37004.40, DATA, CN), u (fr = 0, 37004.40, DATA, CN), 
+n (fr = 0, 37004.40, DATA, CN), s (fr = 0, 37004.40, DATA, CN), 
+> (fr = 0, 370.04, RB, BM), frequency = 1.
+
+STARTING make_alignments (PATTERN ID2, CYCLE 1, PHASE 1)
+
+FINISHED make_alignments (PATTERN ID2, CYCLE 1, PHASE 1)
+
+FOR PATTERN ID2, CYCLE 1, PHASE 1,
+THE MAXIMUM NUMBER OF ENTRIES IN A COLUMN OF symbol_selection_array[][] IS 3
+
+STARTING purge_parsing_alignments (PATTERN ID2, CYCLE 1, PHASE 1)
+
+Number of alignments purged = 0
+
+FINISHED purge_parsing_alignments (PATTERN ID2, CYCLE 1, PHASE 1)
+
+SELECTED SET OF ALIGNMENTS FORMED IN PATTERN ID2, CYCLE 1, PHASE 1
+
+SELECTED ALIGNMENT (PATTERN ID2, CYCLE 1, PHASE 1)
+
+ID12: NSC = 148017.59, EC = 370.04, CR = 400.00, CD = 147647.54,
+Absolute P = 4.03333940449e-112
+
+0 m a          r y r u n s   0
+               |     | | |  
+1 < #1 j o h n r     u n s > 1
+
+Sequence ID12 as flat pattern:
+
+ID12 (< #1 j o h n r u n s >)*1
+
+NSC = 148017.59, EC = 370.04, CR = 400.00, CD = 147647.54
+
+< (fr = 1, 370.04, LB, BM), #1 (fr = 1, 370.04, UID, ID), 
+j (fr = 1, 37004.40, DATA, CN), o (fr = 1, 37004.40, DATA, CN), 
+h (fr = 1, 37004.40, DATA, CN), n (fr = 1, 37004.40, DATA, CN), 
+r (fr = 1, 37004.40, DATA, CN), u (fr = 1, 37004.40, DATA, CN), 
+n (fr = 1, 37004.40, DATA, CN), s (fr = 1, 37004.40, DATA, CN), 
+> (fr = 1, 370.04, RB, BM), frequency = 1.
+
+SELECTED ALIGNMENT (PATTERN ID2, CYCLE 1, PHASE 1)
+
+ID11: NSC = 148017.59, EC = 370.04, CR = 400.00, CD = 147647.54,
+Absolute P = 4.03333940449e-112
+
+0 m a r y      r u n s   0
+               | | | |  
+1 < #1 j o h n r u n s > 1
+
+Sequence ID11 as flat pattern:
+
+ID11 (< #1 j o h n r u n s >)*1
+
+NSC = 148017.59, EC = 370.04, CR = 400.00, CD = 147647.54
+
+< (fr = 1, 370.04, LB, BM), #1 (fr = 1, 370.04, UID, ID), 
+j (fr = 1, 37004.40, DATA, CN), o (fr = 1, 37004.40, DATA, CN), 
+h (fr = 1, 37004.40, DATA, CN), n (fr = 1, 37004.40, DATA, CN), 
+r (fr = 1, 37004.40, DATA, CN), u (fr = 1, 37004.40, DATA, CN), 
+n (fr = 1, 37004.40, DATA, CN), s (fr = 1, 37004.40, DATA, CN), 
+> (fr = 1, 370.04, RB, BM), frequency = 1.
+
+SELECTED ALIGNMENT (PATTERN ID2, CYCLE 1, PHASE 1)
+
+ID13: NSC = 74008.79, EC = 370.04, CR = 200.00, CD = 73638.75,
+Absolute P = 4.03333940449e-112
+
+0 m a r y r u n       s   0
+              |       |  
+1 < #1 j o h  n r u n s > 1
+
+Sequence ID13 as flat pattern:
+
+ID13 (< #1 j o h n r u n s >)*1
+
+NSC = 74008.79, EC = 370.04, CR = 200.00, CD = 73638.75
+
+< (fr = 1, 370.04, LB, BM), #1 (fr = 1, 370.04, UID, ID), 
+j (fr = 1, 37004.40, DATA, CN), o (fr = 1, 37004.40, DATA, CN), 
+h (fr = 1, 37004.40, DATA, CN), n (fr = 1, 37004.40, DATA, CN), 
+r (fr = 1, 37004.40, DATA, CN), u (fr = 1, 37004.40, DATA, CN), 
+n (fr = 1, 37004.40, DATA, CN), s (fr = 1, 37004.40, DATA, CN), 
+> (fr = 1, 370.04, RB, BM), frequency = 1.
+
+SELECTED ALIGNMENT (PATTERN ID2, CYCLE 1, PHASE 1)
+
+ID14: NSC = 37004.40, EC = 370.04, CR = 100.00, CD = 36634.35,
+Absolute P = 4.03333940449e-112
+
+0 m a r y  r u n s       0
+           |            
+1 < #2 m a r y r u n s > 1
+
+Sequence ID14 as flat pattern:
+
+ID14 (< #2 m a r y r u n s >)*1
+
+NSC = 37004.40, EC = 370.04, CR = 100.00, CD = 36634.35
+
+< (fr = 1, 370.04, LB, BM), #2 (fr = 1, 370.04, UID, ID), 
+m (fr = 1, 370.04, DATA, CN), a (fr = 1, 370.04, DATA, CN), 
+r (fr = 1, 37004.40, DATA, CN), y (fr = 1, 370.04, DATA, CN), 
+r (fr = 1, 37004.40, DATA, CN), u (fr = 1, 37004.40, DATA, CN), 
+n (fr = 1, 37004.40, DATA, CN), s (fr = 1, 37004.40, DATA, CN), 
+> (fr = 1, 370.04, RB, BM), frequency = 1.
+
+In the following lists, alignments that are new on this cycle
+are marked with an asterisk ('*').
+
+SELECTED ALIGNMENTS FROM PATTERN ID2, CYCLE 1, PHASE 1
+
+NO FULL_A ALIGNMENTS FROM PATTERN ID2, CYCLE 1, PHASE 1
+
+NO FULL_B ALIGNMENTS FROM PATTERN ID2, CYCLE 1, PHASE 1
+
+SELECTED PARTIAL ALIGNMENTS FROM PATTERN ID2, CYCLE 1, PHASE 1
+
+ID11*, ID12*, ID13*, ID14*
+
+END OF PATTERN ID2, CYCLE 1, PHASE 1
+
+Start of learning:
+(PATTERN ID2, CYCLE 1, PHASE 1)
+
+Learning from alignment ID11 (PATTERN ID2, PHASE 1):
+
+0 m a r y      r u n s   0
+               | | | |  
+1 < #1 j o h n r u n s > 1
+
+Learning from alignment ID12 (PATTERN ID2, PHASE 1):
+
+0 m a          r y r u n s   0
+               |     | | |  
+1 < #1 j o h n r     u n s > 1
+
+Learning from alignment ID13 (PATTERN ID2, PHASE 1):
+
+0 m a r y r u n       s   0
+              |       |  
+1 < #1 j o h  n r u n s > 1
+
+Learning from alignment ID14 (PATTERN ID2, PHASE 1):
+
+0 m a r y  r u n s       0
+           |            
+1 < #2 m a r y r u n s > 1
+
+From current_new_pattern ID2,
+the 'receptacle' pattern stored in Old is:
+
+ID10 (< #2 m a r y r u n s >)*1
+
+< (fr = 0, 370.04, LB, BM), #2 (fr = 1, 370.04, UID, ID), 
+m (fr = 1, 370.04, DATA, CN), a (fr = 1, 370.04, DATA, CN), 
+r (fr = 0, 37004.40, DATA, CN), y (fr = 1, 370.04, DATA, CN), 
+r (fr = 0, 37004.40, DATA, CN), u (fr = 0, 37004.40, DATA, CN), 
+n (fr = 0, 37004.40, DATA, CN), s (fr = 0, 37004.40, DATA, CN), 
+> (fr = 0, 370.04, RB, BM), frequency = 1.
+
+End of learning: (PATTERN ID2, PHASE 1)
+
+OLD PATTERNS AFTER LEARNING AND WITH GENERALISATIONS:
+
+ID5: (< #1 j o h n r u n s >)*0
+
+ID10: (< #2 m a r y r u n s >)*1
+
+OLD PATTERNS WITH DETAILS: (PATTERN ID2, PHASE 1)
+
+ID5 Coding cost: 370.04, (<*0 #1*0 j*0 o*0 h*0 n*0 r*0 u*0 n*0 s*0 >*0)*0
+
+ID5 (< #1 j o h n r u n s >)*0
+
+< (fr = 0, 370.04, LB, BM), #1 (fr = 0, 370.04, UID, ID), 
+j (fr = 0, 37004.40, DATA, CN), o (fr = 0, 37004.40, DATA, CN), 
+h (fr = 0, 37004.40, DATA, CN), n (fr = 0, 37004.40, DATA, CN), 
+r (fr = 0, 37004.40, DATA, CN), u (fr = 0, 37004.40, DATA, CN), 
+n (fr = 0, 37004.40, DATA, CN), s (fr = 0, 37004.40, DATA, CN), 
+> (fr = 0, 370.04, RB, BM), frequency = 0.
+
+ID10 Coding cost: 370.04, (<*0 #2 m a r*0 y r*0 u*0 n*0 s*0 >*0)*1
+
+ID10 (< #2 m a r y r u n s >)*1
+
+< (fr = 0, 370.04, LB, BM), #2 (fr = 1, 370.04, UID, ID), 
+m (fr = 1, 370.04, DATA, CN), a (fr = 1, 370.04, DATA, CN), 
+r (fr = 0, 37004.40, DATA, CN), y (fr = 1, 370.04, DATA, CN), 
+r (fr = 0, 37004.40, DATA, CN), u (fr = 0, 37004.40, DATA, CN), 
+n (fr = 0, 37004.40, DATA, CN), s (fr = 0, 37004.40, DATA, CN), 
+> (fr = 0, 370.04, RB, BM), frequency = 1.
+
+PHASE 2
+
+CURRENT PATTERN FROM NEW:
+
+ID2 (m a r y r u n s)*1
+
+m (fr = 1, 370.04, DATA, ID), a (fr = 1, 370.04, DATA, ID), 
+r (fr = 0, 37004.40, DATA, ID), y (fr = 1, 370.04, DATA, ID), 
+r (fr = 0, 37004.40, DATA, ID), u (fr = 0, 37004.40, DATA, ID), 
+n (fr = 0, 37004.40, DATA, ID), s (fr = 0, 37004.40, DATA, ID), frequency = 1.
+
+START OF PATTERN ID1 (ID2), CYCLE 1, PHASE 2:
+
+NEXT DRIVING PATTERN (PATTERN ID1 (ID2), CYCLE 1, PHASE 2)
+
+ID1 (j o h n r u n s)*1
+
+STARTING make_alignments (PATTERN ID1 (ID2), CYCLE 1, PHASE 2)
+
+FINISHED make_alignments (PATTERN ID1 (ID2), CYCLE 1, PHASE 2)
+
+FOR PATTERN ID1 (ID2), CYCLE 1, PHASE 2,
+THE MAXIMUM NUMBER OF ENTRIES IN A COLUMN OF symbol_selection_array[][] IS 1
+
+STARTING purge_parsing_alignments (PATTERN ID1 (ID2), CYCLE 1, PHASE 2)
+
+Number of alignments purged = 5
+
+FINISHED purge_parsing_alignments (PATTERN ID1 (ID2), CYCLE 1, PHASE 2)
+
+SELECTED SET OF ALIGNMENTS FORMED IN PATTERN ID1 (ID2), CYCLE 1, PHASE 2
+
+SELECTED ALIGNMENT (PATTERN ID1 (ID2), CYCLE 1, PHASE 2)
+
+ID15: NSC = 296035.18, EC = 370.04, CR = 800.00, CD = 295665.13,
+Absolute P = 4.03333940449e-112
+
+0      j o h n r u n s   0
+       | | | | | | | |  
+1 < #1 j o h n r u n s > 1
+
+Sequence ID15 as flat pattern:
+
+ID15 (< #1 j o h n r u n s >)*1
+
+NSC = 296035.18, EC = 370.04, CR = 800.00, CD = 295665.13
+
+< (fr = 1, 370.04, LB, BM), #1 (fr = 1, 370.04, UID, ID), 
+j (fr = 1, 37004.40, DATA, CN), o (fr = 1, 37004.40, DATA, CN), 
+h (fr = 1, 37004.40, DATA, CN), n (fr = 1, 37004.40, DATA, CN), 
+r (fr = 1, 37004.40, DATA, CN), u (fr = 1, 37004.40, DATA, CN), 
+n (fr = 1, 37004.40, DATA, CN), s (fr = 1, 37004.40, DATA, CN), 
+> (fr = 1, 370.04, RB, BM), frequency = 1.
+
+In the following lists, alignments that are new on this cycle
+are marked with an asterisk ('*').
+
+SELECTED ALIGNMENTS FROM PATTERN ID1 (ID2), CYCLE 1, PHASE 2
+
+SELECTED FULL ALIGNMENTS (A) FROM PATTERN ID1 (ID2), CYCLE 1, PHASE 2
+
+ID15*
+
+NO FULL_B ALIGNMENTS FROM PATTERN ID1 (ID2), CYCLE 1, PHASE 2
+
+NO PARTIAL ALIGNMENTS FROM PATTERN ID1 (ID2), CYCLE 1, PHASE 2
+
+END OF PATTERN ID1 (ID2), CYCLE 1, PHASE 2
+
+START OF PATTERN ID1 (ID2), CYCLE 2, PHASE 2:
+
+NEXT DRIVING PATTERN (PATTERN ID1 (ID2), CYCLE 2, PHASE 2)
+
+ID15 (< #1 j o h n r u n s >)*1
+
+FOR PATTERN ID1 (ID2), CYCLE 2, PHASE 2, NO HIT SEQUENCES HAVE BEEN FOUND.
+
+Full alignments for New pattern ID1 (PATTERN ID1 (ID2), CYCLE 2, PHASE 2)
+
+FULL_A
+
+FULL_B
+
+FULL_C
+
+START OF PATTERN ID2 (ID2), CYCLE 1, PHASE 2:
+
+NEXT DRIVING PATTERN (PATTERN ID2 (ID2), CYCLE 1, PHASE 2)
+
+ID2 (m a r y r u n s)*1
+
+STARTING make_alignments (PATTERN ID2 (ID2), CYCLE 1, PHASE 2)
+
+FINISHED make_alignments (PATTERN ID2 (ID2), CYCLE 1, PHASE 2)
+
+FOR PATTERN ID2 (ID2), CYCLE 1, PHASE 2,
+THE MAXIMUM NUMBER OF ENTRIES IN A COLUMN OF symbol_selection_array[][] IS 1
+
+STARTING purge_parsing_alignments (PATTERN ID2 (ID2), CYCLE 1, PHASE 2)
+
+Number of alignments purged = 5
+
+FINISHED purge_parsing_alignments (PATTERN ID2 (ID2), CYCLE 1, PHASE 2)
+
+SELECTED SET OF ALIGNMENTS FORMED IN PATTERN ID2 (ID2), CYCLE 1, PHASE 2
+
+SELECTED ALIGNMENT (PATTERN ID2 (ID2), CYCLE 1, PHASE 2)
+
+ID21: NSC = 186132.12, EC = 370.04, CR = 503.00, CD = 185762.07,
+Absolute P = 4.03333940449e-112
+
+0      m a r y r u n s   0
+       | | | | | | | |  
+1 < #2 m a r y r u n s > 1
+
+Sequence ID21 as flat pattern:
+
+ID21 (< #2 m a r y r u n s >)*1
+
+NSC = 186132.12, EC = 370.04, CR = 503.00, CD = 185762.07
+
+< (fr = 1, 370.04, LB, BM), #2 (fr = 1, 370.04, UID, ID), 
+m (fr = 1, 370.04, DATA, CN), a (fr = 1, 370.04, DATA, CN), 
+r (fr = 1, 37004.40, DATA, CN), y (fr = 1, 370.04, DATA, CN), 
+r (fr = 1, 37004.40, DATA, CN), u (fr = 1, 37004.40, DATA, CN), 
+n (fr = 1, 37004.40, DATA, CN), s (fr = 1, 37004.40, DATA, CN), 
+> (fr = 1, 370.04, RB, BM), frequency = 1.
+
+In the following lists, alignments that are new on this cycle
+are marked with an asterisk ('*').
+
+SELECTED ALIGNMENTS FROM PATTERN ID2 (ID2), CYCLE 1, PHASE 2
+
+SELECTED FULL ALIGNMENTS (A) FROM PATTERN ID2 (ID2), CYCLE 1, PHASE 2
+
+ID21*
+
+NO FULL_B ALIGNMENTS FROM PATTERN ID2 (ID2), CYCLE 1, PHASE 2
+
+NO PARTIAL ALIGNMENTS FROM PATTERN ID2 (ID2), CYCLE 1, PHASE 2
+
+END OF PATTERN ID2 (ID2), CYCLE 1, PHASE 2
+
+START OF PATTERN ID2 (ID2), CYCLE 2, PHASE 2:
+
+NEXT DRIVING PATTERN (PATTERN ID2 (ID2), CYCLE 2, PHASE 2)
+
+ID21 (< #2 m a r y r u n s >)*1
+
+FOR PATTERN ID2 (ID2), CYCLE 2, PHASE 2, NO HIT SEQUENCES HAVE BEEN FOUND.
+
+Full alignments for New pattern ID2 (PATTERN ID2 (ID2), CYCLE 2, PHASE 2)
+
+FULL_A
+
+FULL_B
+
+FULL_C
+
+START OF SIFTING AND SORTING (PATTERN ID2, PHASE 2)
+
+CUMULATIVE 'FULL_A' ALIGNMENTS FROM PARSING (PATTERN ID2, PHASE 2):
+
+PATTERNS IN OLD (PATTERN ID2, PHASE 2):
+
+ID5 (< #1 j o h n r u n s >)*0
+
+ID10 (< #2 m a r y r u n s >)*0
+
+FREQUENCIES OF SYMBOL TYPES IN OLD PATTERNS
+AND INFORMATION COSTS (IN BITS)
+(PATTERN ID2, PHASE 2)
+
+#1, Fr = 0, bit_cost = 26014.09
+#2, Fr = 0, bit_cost = 26014.09
+<, Fr = 0, bit_cost = 26014.09
+>, Fr = 0, bit_cost = 26014.09
+a, Fr = 0, bit_cost = 2601409.12
+h, Fr = 0, bit_cost = 2601409.12
+j, Fr = 0, bit_cost = 2601409.12
+m, Fr = 0, bit_cost = 2601409.12
+n, Fr = 0, bit_cost = 2601409.12
+o, Fr = 0, bit_cost = 2601409.12
+r, Fr = 0, bit_cost = 2601409.12
+s, Fr = 0, bit_cost = 2601409.12
+u, Fr = 0, bit_cost = 2601409.12
+y, Fr = 0, bit_cost = 2601409.12
+
+Average of bit_costs for symbol types = 1865581.97
+
+NEW FREQUENCIES AND COSTS ASSIGNED TO PATTERNS AND SYMBOLS:
+
+OLD PATTERNS WITH DETAILS (PATTERN ID2, PHASE 2)
+
+ID5 Coding cost: 370.04, (<*0 #1*0 j*0 o*0 h*0 n*0 r*0 u*0 n*0 s*0 >*0)*0
+
+ID5 (< #1 j o h n r u n s >)*0
+
+< (fr = 0, 26014.09, LB, BM), #1 (fr = 0, 26014.09, UID, ID), 
+j (fr = 0, 2601409.12, DATA, CN), o (fr = 0, 2601409.12, DATA, CN), 
+h (fr = 0, 2601409.12, DATA, CN), n (fr = 0, 2601409.12, DATA, CN), 
+r (fr = 0, 2601409.12, DATA, CN), u (fr = 0, 2601409.12, DATA, CN), 
+n (fr = 0, 2601409.12, DATA, CN), s (fr = 0, 2601409.12, DATA, CN), 
+> (fr = 0, 26014.09, RB, BM), frequency = 0.
+
+ID10 Coding cost: 370.04, (<*0 #2*0 m*0 a*0 r*0 y*0 r*0 u*0 n*0 s*0 >*0)*0
+
+ID10 (< #2 m a r y r u n s >)*0
+
+< (fr = 0, 26014.09, LB, BM), #2 (fr = 0, 26014.09, UID, ID), 
+m (fr = 0, 2601409.12, DATA, CN), a (fr = 0, 2601409.12, DATA, CN), 
+r (fr = 0, 2601409.12, DATA, CN), y (fr = 0, 2601409.12, DATA, CN), 
+r (fr = 0, 2601409.12, DATA, CN), u (fr = 0, 2601409.12, DATA, CN), 
+n (fr = 0, 2601409.12, DATA, CN), s (fr = 0, 2601409.12, DATA, CN), 
+> (fr = 0, 26014.09, RB, BM), frequency = 0.
+
+START OF COMPILING ALTERNATIVE GRAMMARS:
+
+Encoding costs for New patterns:
+
+ID1: 20811272.97 (j o h n r u n s)
+
+ID2: 20811272.97 (m a r y r u n s)
+
+Encoding costs for Old patterns:
+
+ID5: 26014.09 (< #1 j o h n r u n s >)*0
+
+ID10: 26014.09 (< #2 m a r y r u n s >)*0
+
+Cumulative parsing alignments in order of CD:
+
+
+FINAL GRAMMARS (PATTERN ID2, PHASE 2):
+
+No grammars formed.
+
+Start of purge_old_patterns()
+
+There is no best grammar so no patterns to be purged.
+
+END OF SIFTING AND SORTING (PATTERN ID2, PHASE 2)
+
+All alignments are deleted ready for next New pattern.
+
+END OF PATTERN ID2, PHASE 2
+
+OLD PATTERNS:
+
+ID5: (< #1 j o h n r u n s >)*0
+
+ID10: (< #2 m a r y r u n s >)*0
+
+NEXT PATTERN FROM NEW:
+
+ID3 (j o h n w a l k s)*1
+
+j (fr = 0, 2601409.12, DATA, ID), o (fr = 0, 2601409.12, DATA, ID), 
+h (fr = 0, 2601409.12, DATA, ID), n (fr = 0, 2601409.12, DATA, ID), 
+w (fr = 1, 370.04, DATA, ID), a (fr = 0, 2601409.12, DATA, ID), 
+l (fr = 1, 370.04, DATA, ID), k (fr = 1, 370.04, DATA, ID), 
+s (fr = 0, 2601409.12, DATA, ID), frequency = 1.
+
+PHASE 1
+
+START OF PATTERN ID3, CYCLE 1, PHASE 1:
+
+NEXT DRIVING PATTERN (PATTERN ID3, CYCLE 1, PHASE 1)
+
+ID3 (j o h n w a l k s)*1
+
+Receptacle pattern: ID27 (< #3 j o h n w a l k s >)*1
+
+< (fr = 0, 26014.09, LB, BM), #3 (fr = 1, 26014.09, UID, ID), 
+j (fr = 0, 2601409.12, DATA, CN), o (fr = 0, 2601409.12, DATA, CN), 
+h (fr = 0, 2601409.12, DATA, CN), n (fr = 0, 2601409.12, DATA, CN), 
+w (fr = 1, 370.04, DATA, CN), a (fr = 0, 2601409.12, DATA, CN), 
+l (fr = 1, 370.04, DATA, CN), k (fr = 1, 370.04, DATA, CN), 
+s (fr = 0, 2601409.12, DATA, CN), > (fr = 0, 26014.09, RB, BM), frequency = 1.
+
+STARTING make_alignments (PATTERN ID3, CYCLE 1, PHASE 1)
+
+FINISHED make_alignments (PATTERN ID3, CYCLE 1, PHASE 1)
+
+FOR PATTERN ID3, CYCLE 1, PHASE 1,
+THE MAXIMUM NUMBER OF ENTRIES IN A COLUMN OF symbol_selection_array[][] IS 4
+
+STARTING purge_parsing_alignments (PATTERN ID3, CYCLE 1, PHASE 1)
+
+Number of alignments purged = 0
+
+FINISHED purge_parsing_alignments (PATTERN ID3, CYCLE 1, PHASE 1)
+
+SELECTED SET OF ALIGNMENTS FORMED IN PATTERN ID3, CYCLE 1, PHASE 1
+
+SELECTED ALIGNMENT (PATTERN ID3, CYCLE 1, PHASE 1)
+
+ID29: NSC = 13007045.61, EC = 26014.09, CR = 500.00, CD = 12981031.52,
+Absolute P = 0
+
+0      j o h n w a l k s   0
+       | | | |         |  
+1 < #1 j o h n r u n   s > 1
+
+Sequence ID29 as flat pattern:
+
+ID29 (< #1 j o h n r u n s >)*1
+
+NSC = 13007045.61, EC = 26014.09, CR = 500.00, CD = 12981031.52
+
+< (fr = 1, 26014.09, LB, BM), #1 (fr = 1, 26014.09, UID, ID), 
+j (fr = 1, 2601409.12, DATA, CN), o (fr = 1, 2601409.12, DATA, CN), 
+h (fr = 1, 2601409.12, DATA, CN), n (fr = 1, 2601409.12, DATA, CN), 
+r (fr = 1, 2601409.12, DATA, CN), u (fr = 1, 2601409.12, DATA, CN), 
+n (fr = 1, 2601409.12, DATA, CN), s (fr = 1, 2601409.12, DATA, CN), 
+> (fr = 1, 26014.09, RB, BM), frequency = 1.
+
+SELECTED ALIGNMENT (PATTERN ID3, CYCLE 1, PHASE 1)
+
+ID28: NSC = 13007045.61, EC = 26014.09, CR = 500.00, CD = 12981031.52,
+Absolute P = 0
+
+0      j o h       n w a l k s   0
+       | | |       |         |  
+1 < #1 j o h n r u n         s > 1
+
+Sequence ID28 as flat pattern:
+
+ID28 (< #1 j o h n r u n s >)*1
+
+NSC = 13007045.61, EC = 26014.09, CR = 500.00, CD = 12981031.52
+
+< (fr = 1, 26014.09, LB, BM), #1 (fr = 1, 26014.09, UID, ID), 
+j (fr = 1, 2601409.12, DATA, CN), o (fr = 1, 2601409.12, DATA, CN), 
+h (fr = 1, 2601409.12, DATA, CN), n (fr = 1, 2601409.12, DATA, CN), 
+r (fr = 1, 2601409.12, DATA, CN), u (fr = 1, 2601409.12, DATA, CN), 
+n (fr = 1, 2601409.12, DATA, CN), s (fr = 1, 2601409.12, DATA, CN), 
+> (fr = 1, 26014.09, RB, BM), frequency = 1.
+
+SELECTED ALIGNMENT (PATTERN ID3, CYCLE 1, PHASE 1)
+
+ID31: NSC = 5202818.24, EC = 26014.09, CR = 200.00, CD = 5176804.15,
+Absolute P = 0
+
+0 j o h            n w a l k s   0
+                   |         |  
+1 < #2 m a r y r u n         s > 1
+
+Sequence ID31 as flat pattern:
+
+ID31 (< #2 m a r y r u n s >)*1
+
+NSC = 5202818.24, EC = 26014.09, CR = 200.00, CD = 5176804.15
+
+< (fr = 1, 26014.09, LB, BM), #2 (fr = 1, 26014.09, UID, ID), 
+m (fr = 1, 2601409.12, DATA, CN), a (fr = 1, 2601409.12, DATA, CN), 
+r (fr = 1, 2601409.12, DATA, CN), y (fr = 1, 2601409.12, DATA, CN), 
+r (fr = 1, 2601409.12, DATA, CN), u (fr = 1, 2601409.12, DATA, CN), 
+n (fr = 1, 2601409.12, DATA, CN), s (fr = 1, 2601409.12, DATA, CN), 
+> (fr = 1, 26014.09, RB, BM), frequency = 1.
+
+SELECTED ALIGNMENT (PATTERN ID3, CYCLE 1, PHASE 1)
+
+ID30: NSC = 5202818.24, EC = 26014.09, CR = 200.00, CD = 5176804.15,
+Absolute P = 0
+
+0 j o h n w a l k       s   0
+            |           |  
+1 < #2 m    a r y r u n s > 1
+
+Sequence ID30 as flat pattern:
+
+ID30 (< #2 m a r y r u n s >)*1
+
+NSC = 5202818.24, EC = 26014.09, CR = 200.00, CD = 5176804.15
+
+< (fr = 1, 26014.09, LB, BM), #2 (fr = 1, 26014.09, UID, ID), 
+m (fr = 1, 2601409.12, DATA, CN), a (fr = 1, 2601409.12, DATA, CN), 
+r (fr = 1, 2601409.12, DATA, CN), y (fr = 1, 2601409.12, DATA, CN), 
+r (fr = 1, 2601409.12, DATA, CN), u (fr = 1, 2601409.12, DATA, CN), 
+n (fr = 1, 2601409.12, DATA, CN), s (fr = 1, 2601409.12, DATA, CN), 
+> (fr = 1, 26014.09, RB, BM), frequency = 1.
+
+In the following lists, alignments that are new on this cycle
+are marked with an asterisk ('*').
+
+SELECTED ALIGNMENTS FROM PATTERN ID3, CYCLE 1, PHASE 1
+
+NO FULL_A ALIGNMENTS FROM PATTERN ID3, CYCLE 1, PHASE 1
+
+NO FULL_B ALIGNMENTS FROM PATTERN ID3, CYCLE 1, PHASE 1
+
+SELECTED PARTIAL ALIGNMENTS FROM PATTERN ID3, CYCLE 1, PHASE 1
+
+ID28*, ID29*, ID30*, ID31*
+
+END OF PATTERN ID3, CYCLE 1, PHASE 1
+
+Start of learning:
+(PATTERN ID3, CYCLE 1, PHASE 1)
+
+Learning from alignment ID28 (PATTERN ID3, PHASE 1):
+
+0      j o h       n w a l k s   0
+       | | |       |         |  
+1 < #1 j o h n r u n         s > 1
+
+Learning from alignment ID29 (PATTERN ID3, PHASE 1):
+
+0      j o h n w a l k s   0
+       | | | |         |  
+1 < #1 j o h n r u n   s > 1
+
+Learning from alignment ID30 (PATTERN ID3, PHASE 1):
+
+0 j o h n w a l k       s   0
+            |           |  
+1 < #2 m    a r y r u n s > 1
+
+Learning from alignment ID31 (PATTERN ID3, PHASE 1):
+
+0 j o h            n w a l k s   0
+                   |         |  
+1 < #2 m a r y r u n         s > 1
+
+From current_new_pattern ID3,
+the 'receptacle' pattern stored in Old is:
+
+ID27 (< #3 j o h n w a l k s >)*1
+
+< (fr = 0, 26014.09, LB, BM), #3 (fr = 1, 26014.09, UID, ID), 
+j (fr = 0, 2601409.12, DATA, CN), o (fr = 0, 2601409.12, DATA, CN), 
+h (fr = 0, 2601409.12, DATA, CN), n (fr = 0, 2601409.12, DATA, CN), 
+w (fr = 1, 370.04, DATA, CN), a (fr = 0, 2601409.12, DATA, CN), 
+l (fr = 1, 370.04, DATA, CN), k (fr = 1, 370.04, DATA, CN), 
+s (fr = 0, 2601409.12, DATA, CN), > (fr = 0, 26014.09, RB, BM), frequency = 1.
+
+End of learning: (PATTERN ID3, PHASE 1)
+
+OLD PATTERNS AFTER LEARNING AND WITH GENERALISATIONS:
+
+ID5: (< #1 j o h n r u n s >)*0
+
+ID10: (< #2 m a r y r u n s >)*0
+
+ID27: (< #3 j o h n w a l k s >)*1
+
+OLD PATTERNS WITH DETAILS: (PATTERN ID3, PHASE 1)
+
+ID5 Coding cost: 26014.09, (<*0 #1*0 j*0 o*0 h*0 n*0 r*0 u*0 n*0 s*0 >*0)*0
+
+ID5 (< #1 j o h n r u n s >)*0
+
+< (fr = 0, 26014.09, LB, BM), #1 (fr = 0, 26014.09, UID, ID), 
+j (fr = 0, 2601409.12, DATA, CN), o (fr = 0, 2601409.12, DATA, CN), 
+h (fr = 0, 2601409.12, DATA, CN), n (fr = 0, 2601409.12, DATA, CN), 
+r (fr = 0, 2601409.12, DATA, CN), u (fr = 0, 2601409.12, DATA, CN), 
+n (fr = 0, 2601409.12, DATA, CN), s (fr = 0, 2601409.12, DATA, CN), 
+> (fr = 0, 26014.09, RB, BM), frequency = 0.
+
+ID10 Coding cost: 26014.09, (<*0 #2*0 m*0 a*0 r*0 y*0 r*0 u*0 n*0 s*0 >*0)*0
+
+ID10 (< #2 m a r y r u n s >)*0
+
+< (fr = 0, 26014.09, LB, BM), #2 (fr = 0, 26014.09, UID, ID), 
+m (fr = 0, 2601409.12, DATA, CN), a (fr = 0, 2601409.12, DATA, CN), 
+r (fr = 0, 2601409.12, DATA, CN), y (fr = 0, 2601409.12, DATA, CN), 
+r (fr = 0, 2601409.12, DATA, CN), u (fr = 0, 2601409.12, DATA, CN), 
+n (fr = 0, 2601409.12, DATA, CN), s (fr = 0, 2601409.12, DATA, CN), 
+> (fr = 0, 26014.09, RB, BM), frequency = 0.
+
+ID27 Coding cost: 26014.09, (<*0 #3 j*0 o*0 h*0 n*0 w a*0 l k s*0 >*0)*1
+
+ID27 (< #3 j o h n w a l k s >)*1
+
+< (fr = 0, 26014.09, LB, BM), #3 (fr = 1, 26014.09, UID, ID), 
+j (fr = 0, 2601409.12, DATA, CN), o (fr = 0, 2601409.12, DATA, CN), 
+h (fr = 0, 2601409.12, DATA, CN), n (fr = 0, 2601409.12, DATA, CN), 
+w (fr = 1, 370.04, DATA, CN), a (fr = 0, 2601409.12, DATA, CN), 
+l (fr = 1, 370.04, DATA, CN), k (fr = 1, 370.04, DATA, CN), 
+s (fr = 0, 2601409.12, DATA, CN), > (fr = 0, 26014.09, RB, BM), frequency = 1.
+
+PHASE 2
+
+CURRENT PATTERN FROM NEW:
+
+ID3 (j o h n w a l k s)*1
+
+j (fr = 0, 2601409.12, DATA, ID), o (fr = 0, 2601409.12, DATA, ID), 
+h (fr = 0, 2601409.12, DATA, ID), n (fr = 0, 2601409.12, DATA, ID), 
+w (fr = 1, 370.04, DATA, ID), a (fr = 0, 2601409.12, DATA, ID), 
+l (fr = 1, 370.04, DATA, ID), k (fr = 1, 370.04, DATA, ID), 
+s (fr = 0, 2601409.12, DATA, ID), frequency = 1.
+
+START OF PATTERN ID1 (ID3), CYCLE 1, PHASE 2:
+
+NEXT DRIVING PATTERN (PATTERN ID1 (ID3), CYCLE 1, PHASE 2)
+
+ID1 (j o h n r u n s)*1
+
+STARTING make_alignments (PATTERN ID1 (ID3), CYCLE 1, PHASE 2)
+
+FINISHED make_alignments (PATTERN ID1 (ID3), CYCLE 1, PHASE 2)
+
+FOR PATTERN ID1 (ID3), CYCLE 1, PHASE 2,
+THE MAXIMUM NUMBER OF ENTRIES IN A COLUMN OF symbol_selection_array[][] IS 1
+
+STARTING purge_parsing_alignments (PATTERN ID1 (ID3), CYCLE 1, PHASE 2)
+
+Number of alignments purged = 7
+
+FINISHED purge_parsing_alignments (PATTERN ID1 (ID3), CYCLE 1, PHASE 2)
+
+SELECTED SET OF ALIGNMENTS FORMED IN PATTERN ID1 (ID3), CYCLE 1, PHASE 2
+
+SELECTED ALIGNMENT (PATTERN ID1 (ID3), CYCLE 1, PHASE 2)
+
+ID32: NSC = 20811272.97, EC = 26014.09, CR = 800.00, CD = 20785258.88,
+Absolute P = 0
+
+0      j o h n r u n s   0
+       | | | | | | | |  
+1 < #1 j o h n r u n s > 1
+
+Sequence ID32 as flat pattern:
+
+ID32 (< #1 j o h n r u n s >)*1
+
+NSC = 20811272.97, EC = 26014.09, CR = 800.00, CD = 20785258.88
+
+< (fr = 1, 26014.09, LB, BM), #1 (fr = 1, 26014.09, UID, ID), 
+j (fr = 1, 2601409.12, DATA, CN), o (fr = 1, 2601409.12, DATA, CN), 
+h (fr = 1, 2601409.12, DATA, CN), n (fr = 1, 2601409.12, DATA, CN), 
+r (fr = 1, 2601409.12, DATA, CN), u (fr = 1, 2601409.12, DATA, CN), 
+n (fr = 1, 2601409.12, DATA, CN), s (fr = 1, 2601409.12, DATA, CN), 
+> (fr = 1, 26014.09, RB, BM), frequency = 1.
+
+In the following lists, alignments that are new on this cycle
+are marked with an asterisk ('*').
+
+SELECTED ALIGNMENTS FROM PATTERN ID1 (ID3), CYCLE 1, PHASE 2
+
+SELECTED FULL ALIGNMENTS (A) FROM PATTERN ID1 (ID3), CYCLE 1, PHASE 2
+
+ID32*
+
+NO FULL_B ALIGNMENTS FROM PATTERN ID1 (ID3), CYCLE 1, PHASE 2
+
+NO PARTIAL ALIGNMENTS FROM PATTERN ID1 (ID3), CYCLE 1, PHASE 2
+
+END OF PATTERN ID1 (ID3), CYCLE 1, PHASE 2
+
+START OF PATTERN ID1 (ID3), CYCLE 2, PHASE 2:
+
+NEXT DRIVING PATTERN (PATTERN ID1 (ID3), CYCLE 2, PHASE 2)
+
+ID32 (< #1 j o h n r u n s >)*1
+
+FOR PATTERN ID1 (ID3), CYCLE 2, PHASE 2, NO HIT SEQUENCES HAVE BEEN FOUND.
+
+Full alignments for New pattern ID1 (PATTERN ID1 (ID3), CYCLE 2, PHASE 2)
+
+FULL_A
+
+FULL_B
+
+FULL_C
+
+START OF PATTERN ID2 (ID3), CYCLE 1, PHASE 2:
+
+NEXT DRIVING PATTERN (PATTERN ID2 (ID3), CYCLE 1, PHASE 2)
+
+ID2 (m a r y r u n s)*1
+
+STARTING make_alignments (PATTERN ID2 (ID3), CYCLE 1, PHASE 2)
+
+FINISHED make_alignments (PATTERN ID2 (ID3), CYCLE 1, PHASE 2)
+
+FOR PATTERN ID2 (ID3), CYCLE 1, PHASE 2,
+THE MAXIMUM NUMBER OF ENTRIES IN A COLUMN OF symbol_selection_array[][] IS 1
+
+STARTING purge_parsing_alignments (PATTERN ID2 (ID3), CYCLE 1, PHASE 2)
+
+Number of alignments purged = 7
+
+FINISHED purge_parsing_alignments (PATTERN ID2 (ID3), CYCLE 1, PHASE 2)
+
+SELECTED SET OF ALIGNMENTS FORMED IN PATTERN ID2 (ID3), CYCLE 1, PHASE 2
+
+SELECTED ALIGNMENT (PATTERN ID2 (ID3), CYCLE 1, PHASE 2)
+
+ID40: NSC = 20811272.97, EC = 26014.09, CR = 800.00, CD = 20785258.88,
+Absolute P = 0
+
+0      m a r y r u n s   0
+       | | | | | | | |  
+1 < #2 m a r y r u n s > 1
+
+Sequence ID40 as flat pattern:
+
+ID40 (< #2 m a r y r u n s >)*1
+
+NSC = 20811272.97, EC = 26014.09, CR = 800.00, CD = 20785258.88
+
+< (fr = 1, 26014.09, LB, BM), #2 (fr = 1, 26014.09, UID, ID), 
+m (fr = 1, 2601409.12, DATA, CN), a (fr = 1, 2601409.12, DATA, CN), 
+r (fr = 1, 2601409.12, DATA, CN), y (fr = 1, 2601409.12, DATA, CN), 
+r (fr = 1, 2601409.12, DATA, CN), u (fr = 1, 2601409.12, DATA, CN), 
+n (fr = 1, 2601409.12, DATA, CN), s (fr = 1, 2601409.12, DATA, CN), 
+> (fr = 1, 26014.09, RB, BM), frequency = 1.
+
+In the following lists, alignments that are new on this cycle
+are marked with an asterisk ('*').
+
+SELECTED ALIGNMENTS FROM PATTERN ID2 (ID3), CYCLE 1, PHASE 2
+
+SELECTED FULL ALIGNMENTS (A) FROM PATTERN ID2 (ID3), CYCLE 1, PHASE 2
+
+ID40*
+
+NO FULL_B ALIGNMENTS FROM PATTERN ID2 (ID3), CYCLE 1, PHASE 2
+
+NO PARTIAL ALIGNMENTS FROM PATTERN ID2 (ID3), CYCLE 1, PHASE 2
+
+END OF PATTERN ID2 (ID3), CYCLE 1, PHASE 2
+
+START OF PATTERN ID2 (ID3), CYCLE 2, PHASE 2:
+
+NEXT DRIVING PATTERN (PATTERN ID2 (ID3), CYCLE 2, PHASE 2)
+
+ID40 (< #2 m a r y r u n s >)*1
+
+FOR PATTERN ID2 (ID3), CYCLE 2, PHASE 2, NO HIT SEQUENCES HAVE BEEN FOUND.
+
+Full alignments for New pattern ID2 (PATTERN ID2 (ID3), CYCLE 2, PHASE 2)
+
+FULL_A
+
+FULL_B
+
+FULL_C
+
+START OF PATTERN ID3 (ID3), CYCLE 1, PHASE 2:
+
+NEXT DRIVING PATTERN (PATTERN ID3 (ID3), CYCLE 1, PHASE 2)
+
+ID3 (j o h n w a l k s)*1
+
+STARTING make_alignments (PATTERN ID3 (ID3), CYCLE 1, PHASE 2)
+
+FINISHED make_alignments (PATTERN ID3 (ID3), CYCLE 1, PHASE 2)
+
+FOR PATTERN ID3 (ID3), CYCLE 1, PHASE 2,
+THE MAXIMUM NUMBER OF ENTRIES IN A COLUMN OF symbol_selection_array[][] IS 1
+
+STARTING purge_parsing_alignments (PATTERN ID3 (ID3), CYCLE 1, PHASE 2)
+
+Number of alignments purged = 4
+
+FINISHED purge_parsing_alignments (PATTERN ID3 (ID3), CYCLE 1, PHASE 2)
+
+SELECTED SET OF ALIGNMENTS FORMED IN PATTERN ID3 (ID3), CYCLE 1, PHASE 2
+
+SELECTED ALIGNMENT (PATTERN ID3 (ID3), CYCLE 1, PHASE 2)
+
+ID48: NSC = 15609564.86, EC = 26014.09, CR = 600.04, CD = 15583550.77,
+Absolute P = 0
+
+0      j o h n w a l k s   0
+       | | | | | | | | |  
+1 < #3 j o h n w a l k s > 1
+
+Sequence ID48 as flat pattern:
+
+ID48 (< #3 j o h n w a l k s >)*1
+
+NSC = 15609564.86, EC = 26014.09, CR = 600.04, CD = 15583550.77
+
+< (fr = 1, 26014.09, LB, BM), #3 (fr = 1, 26014.09, UID, ID), 
+j (fr = 1, 2601409.12, DATA, CN), o (fr = 1, 2601409.12, DATA, CN), 
+h (fr = 1, 2601409.12, DATA, CN), n (fr = 1, 2601409.12, DATA, CN), 
+w (fr = 1, 370.04, DATA, CN), a (fr = 1, 2601409.12, DATA, CN), 
+l (fr = 1, 370.04, DATA, CN), k (fr = 1, 370.04, DATA, CN), 
+s (fr = 1, 2601409.12, DATA, CN), > (fr = 1, 26014.09, RB, BM), frequency = 1.
+
+In the following lists, alignments that are new on this cycle
+are marked with an asterisk ('*').
+
+SELECTED ALIGNMENTS FROM PATTERN ID3 (ID3), CYCLE 1, PHASE 2
+
+SELECTED FULL ALIGNMENTS (A) FROM PATTERN ID3 (ID3), CYCLE 1, PHASE 2
+
+ID48*
+
+NO FULL_B ALIGNMENTS FROM PATTERN ID3 (ID3), CYCLE 1, PHASE 2
+
+NO PARTIAL ALIGNMENTS FROM PATTERN ID3 (ID3), CYCLE 1, PHASE 2
+
+END OF PATTERN ID3 (ID3), CYCLE 1, PHASE 2
+
+START OF PATTERN ID3 (ID3), CYCLE 2, PHASE 2:
+
+NEXT DRIVING PATTERN (PATTERN ID3 (ID3), CYCLE 2, PHASE 2)
+
+ID48 (< #3 j o h n w a l k s >)*1
+
+FOR PATTERN ID3 (ID3), CYCLE 2, PHASE 2, NO HIT SEQUENCES HAVE BEEN FOUND.
+
+Full alignments for New pattern ID3 (PATTERN ID3 (ID3), CYCLE 2, PHASE 2)
+
+FULL_A
+
+FULL_B
+
+FULL_C
+
+START OF SIFTING AND SORTING (PATTERN ID3, PHASE 2)
+
+CUMULATIVE 'FULL_A' ALIGNMENTS FROM PARSING (PATTERN ID3, PHASE 2):
+
+PATTERNS IN OLD (PATTERN ID3, PHASE 2):
+
+ID5 (< #1 j o h n r u n s >)*0
+
+ID10 (< #2 m a r y r u n s >)*0
+
+ID27 (< #3 j o h n w a l k s >)*0
+
+FREQUENCIES OF SYMBOL TYPES IN OLD PATTERNS
+AND INFORMATION COSTS (IN BITS)
+(PATTERN ID3, PHASE 2)
+
+#1, Fr = 0, bit_cost = 1865581.97
+#2, Fr = 0, bit_cost = 1865581.97
+#3, Fr = 0, bit_cost = 1865581.97
+<, Fr = 0, bit_cost = 1865581.97
+>, Fr = 0, bit_cost = 1865581.97
+a, Fr = 0, bit_cost = 186558197.02
+h, Fr = 0, bit_cost = 186558197.02
+j, Fr = 0, bit_cost = 186558197.02
+k, Fr = 0, bit_cost = 186558197.02
+l, Fr = 0, bit_cost = 186558197.02
+m, Fr = 0, bit_cost = 186558197.02
+n, Fr = 0, bit_cost = 186558197.02
+o, Fr = 0, bit_cost = 186558197.02
+r, Fr = 0, bit_cost = 186558197.02
+s, Fr = 0, bit_cost = 186558197.02
+u, Fr = 0, bit_cost = 186558197.02
+w, Fr = 0, bit_cost = 186558197.02
+y, Fr = 0, bit_cost = 186558197.02
+
+Average of bit_costs for symbol types = 135254692.84
+
+NEW FREQUENCIES AND COSTS ASSIGNED TO PATTERNS AND SYMBOLS:
+
+OLD PATTERNS WITH DETAILS (PATTERN ID3, PHASE 2)
+
+ID5 Coding cost: 26014.09, (<*0 #1*0 j*0 o*0 h*0 n*0 r*0 u*0 n*0 s*0 >*0)*0
+
+ID5 (< #1 j o h n r u n s >)*0
+
+< (fr = 0, 1865581.97, LB, BM), #1 (fr = 0, 1865581.97, UID, ID), 
+j (fr = 0, 186558197.02, DATA, CN), o (fr = 0, 186558197.02, DATA, CN), 
+h (fr = 0, 186558197.02, DATA, CN), n (fr = 0, 186558197.02, DATA, CN), 
+r (fr = 0, 186558197.02, DATA, CN), u (fr = 0, 186558197.02, DATA, CN), 
+n (fr = 0, 186558197.02, DATA, CN), s (fr = 0, 186558197.02, DATA, CN), 
+> (fr = 0, 1865581.97, RB, BM), frequency = 0.
+
+ID10 Coding cost: 26014.09, (<*0 #2*0 m*0 a*0 r*0 y*0 r*0 u*0 n*0 s*0 >*0)*0
+
+ID10 (< #2 m a r y r u n s >)*0
+
+< (fr = 0, 1865581.97, LB, BM), #2 (fr = 0, 1865581.97, UID, ID), 
+m (fr = 0, 186558197.02, DATA, CN), a (fr = 0, 186558197.02, DATA, CN), 
+r (fr = 0, 186558197.02, DATA, CN), y (fr = 0, 186558197.02, DATA, CN), 
+r (fr = 0, 186558197.02, DATA, CN), u (fr = 0, 186558197.02, DATA, CN), 
+n (fr = 0, 186558197.02, DATA, CN), s (fr = 0, 186558197.02, DATA, CN), 
+> (fr = 0, 1865581.97, RB, BM), frequency = 0.
+
+ID27 Coding cost: 26014.09, (<*0 #3*0 j*0 o*0 h*0 n*0 w*0 a*0 l*0 k*0 s*0 >*0)*0
+
+ID27 (< #3 j o h n w a l k s >)*0
+
+< (fr = 0, 1865581.97, LB, BM), #3 (fr = 0, 1865581.97, UID, ID), 
+j (fr = 0, 186558197.02, DATA, CN), o (fr = 0, 186558197.02, DATA, CN), 
+h (fr = 0, 186558197.02, DATA, CN), n (fr = 0, 186558197.02, DATA, CN), 
+w (fr = 0, 186558197.02, DATA, CN), a (fr = 0, 186558197.02, DATA, CN), 
+l (fr = 0, 186558197.02, DATA, CN), k (fr = 0, 186558197.02, DATA, CN), 
+s (fr = 0, 186558197.02, DATA, CN), > (fr = 0, 1865581.97, RB, BM), frequency = 0.
+
+START OF COMPILING ALTERNATIVE GRAMMARS:
+
+Encoding costs for New patterns:
+
+ID1: 1492465576.19 (j o h n r u n s)
+
+ID2: 1492465576.19 (m a r y r u n s)
+
+ID3: 1679023773.22 (j o h n w a l k s)
+
+Encoding costs for Old patterns:
+
+ID5: 1865581.97 (< #1 j o h n r u n s >)*0
+
+ID10: 1865581.97 (< #2 m a r y r u n s >)*0
+
+ID27: 1865581.97 (< #3 j o h n w a l k s >)*0
+
+Cumulative parsing alignments in order of CD:
+
+
+FINAL GRAMMARS (PATTERN ID3, PHASE 2):
+
+No grammars formed.
+
+Start of purge_old_patterns()
+
+There is no best grammar so no patterns to be purged.
+
+END OF SIFTING AND SORTING (PATTERN ID3, PHASE 2)
+
+All alignments are deleted ready for next New pattern.
+
+END OF PATTERN ID3, PHASE 2
+
+OLD PATTERNS:
+
+ID5: (< #1 j o h n r u n s >)*0
+
+ID10: (< #2 m a r y r u n s >)*0
+
+ID27: (< #3 j o h n w a l k s >)*0
+
+NEXT PATTERN FROM NEW:
+
+ID4 (m a r y w a l k s)*1
+
+m (fr = 0, 186558197.02, DATA, ID), a (fr = 0, 186558197.02, DATA, ID), 
+r (fr = 0, 186558197.02, DATA, ID), y (fr = 0, 186558197.02, DATA, ID), 
+w (fr = 0, 186558197.02, DATA, ID), a (fr = 0, 186558197.02, DATA, ID), 
+l (fr = 0, 186558197.02, DATA, ID), k (fr = 0, 186558197.02, DATA, ID), 
+s (fr = 0, 186558197.02, DATA, ID), frequency = 1.
+
+PHASE 1
+
+START OF PATTERN ID4, CYCLE 1, PHASE 1:
+
+NEXT DRIVING PATTERN (PATTERN ID4, CYCLE 1, PHASE 1)
+
+ID4 (m a r y w a l k s)*1
+
+Receptacle pattern: ID53 (< #4 m a r y w a l k s >)*1
+
+< (fr = 0, 1865581.97, LB, BM), #4 (fr = 1, 1865581.97, UID, ID), 
+m (fr = 0, 186558197.02, DATA, CN), a (fr = 0, 186558197.02, DATA, CN), 
+r (fr = 0, 186558197.02, DATA, CN), y (fr = 0, 186558197.02, DATA, CN), 
+w (fr = 0, 186558197.02, DATA, CN), a (fr = 0, 186558197.02, DATA, CN), 
+l (fr = 0, 186558197.02, DATA, CN), k (fr = 0, 186558197.02, DATA, CN), 
+s (fr = 0, 186558197.02, DATA, CN), > (fr = 0, 1865581.97, RB, BM), frequency = 1.
+
+STARTING make_alignments (PATTERN ID4, CYCLE 1, PHASE 1)
+
+FINISHED make_alignments (PATTERN ID4, CYCLE 1, PHASE 1)
+
+FOR PATTERN ID4, CYCLE 1, PHASE 1,
+THE MAXIMUM NUMBER OF ENTRIES IN A COLUMN OF symbol_selection_array[][] IS 6
+
+STARTING purge_parsing_alignments (PATTERN ID4, CYCLE 1, PHASE 1)
+
+Number of alignments purged = 0
+
+FINISHED purge_parsing_alignments (PATTERN ID4, CYCLE 1, PHASE 1)
+
+SELECTED SET OF ALIGNMENTS FORMED IN PATTERN ID4, CYCLE 1, PHASE 1
+
+SELECTED ALIGNMENT (PATTERN ID4, CYCLE 1, PHASE 1)
+
+ID55: NSC = 932790985.12, EC = 1865581.97, CR = 500.00, CD = 930925403.15,
+Absolute P = 0
+
+0 m a r y      w a l k s   0
+               | | | | |  
+1 < #3 j o h n w a l k s > 1
+
+Sequence ID55 as flat pattern:
+
+ID55 (< #3 j o h n w a l k s >)*1
+
+NSC = 932790985.12, EC = 1865581.97, CR = 500.00, CD = 930925403.15
+
+< (fr = 1, 1865581.97, LB, BM), #3 (fr = 1, 1865581.97, UID, ID), 
+j (fr = 1, 186558197.02, DATA, CN), o (fr = 1, 186558197.02, DATA, CN), 
+h (fr = 1, 186558197.02, DATA, CN), n (fr = 1, 186558197.02, DATA, CN), 
+w (fr = 1, 186558197.02, DATA, CN), a (fr = 1, 186558197.02, DATA, CN), 
+l (fr = 1, 186558197.02, DATA, CN), k (fr = 1, 186558197.02, DATA, CN), 
+s (fr = 1, 186558197.02, DATA, CN), > (fr = 1, 1865581.97, RB, BM), frequency = 1.
+
+SELECTED ALIGNMENT (PATTERN ID4, CYCLE 1, PHASE 1)
+
+ID54: NSC = 932790985.12, EC = 1865581.97, CR = 500.00, CD = 930925403.15,
+Absolute P = 0
+
+0      m a r y w a l k s   0
+       | | | |         |  
+1 < #2 m a r y r u n   s > 1
+
+Sequence ID54 as flat pattern:
+
+ID54 (< #2 m a r y r u n s >)*1
+
+NSC = 932790985.12, EC = 1865581.97, CR = 500.00, CD = 930925403.15
+
+< (fr = 1, 1865581.97, LB, BM), #2 (fr = 1, 1865581.97, UID, ID), 
+m (fr = 1, 186558197.02, DATA, CN), a (fr = 1, 186558197.02, DATA, CN), 
+r (fr = 1, 186558197.02, DATA, CN), y (fr = 1, 186558197.02, DATA, CN), 
+r (fr = 1, 186558197.02, DATA, CN), u (fr = 1, 186558197.02, DATA, CN), 
+n (fr = 1, 186558197.02, DATA, CN), s (fr = 1, 186558197.02, DATA, CN), 
+> (fr = 1, 1865581.97, RB, BM), frequency = 1.
+
+SELECTED ALIGNMENT (PATTERN ID4, CYCLE 1, PHASE 1)
+
+ID57: NSC = 746232788.10, EC = 1865581.97, CR = 400.00, CD = 744367206.13,
+Absolute P = 0
+
+0      m a     r y w a l k s   0
+       | |     |           |  
+1 < #2 m a r y r u n       s > 1
+
+Sequence ID57 as flat pattern:
+
+ID57 (< #2 m a r y r u n s >)*1
+
+NSC = 746232788.10, EC = 1865581.97, CR = 400.00, CD = 744367206.13
+
+< (fr = 1, 1865581.97, LB, BM), #2 (fr = 1, 1865581.97, UID, ID), 
+m (fr = 1, 186558197.02, DATA, CN), a (fr = 1, 186558197.02, DATA, CN), 
+r (fr = 1, 186558197.02, DATA, CN), y (fr = 1, 186558197.02, DATA, CN), 
+r (fr = 1, 186558197.02, DATA, CN), u (fr = 1, 186558197.02, DATA, CN), 
+n (fr = 1, 186558197.02, DATA, CN), s (fr = 1, 186558197.02, DATA, CN), 
+> (fr = 1, 1865581.97, RB, BM), frequency = 1.
+
+SELECTED ALIGNMENT (PATTERN ID4, CYCLE 1, PHASE 1)
+
+ID56: NSC = 746232788.10, EC = 1865581.97, CR = 400.00, CD = 744367206.13,
+Absolute P = 0
+
+0 m              a r y w a l k s   0
+                 |         | | |  
+1 < #3 j o h n w a         l k s > 1
+
+Sequence ID56 as flat pattern:
+
+ID56 (< #3 j o h n w a l k s >)*1
+
+NSC = 746232788.10, EC = 1865581.97, CR = 400.00, CD = 744367206.13
+
+< (fr = 1, 1865581.97, LB, BM), #3 (fr = 1, 1865581.97, UID, ID), 
+j (fr = 1, 186558197.02, DATA, CN), o (fr = 1, 186558197.02, DATA, CN), 
+h (fr = 1, 186558197.02, DATA, CN), n (fr = 1, 186558197.02, DATA, CN), 
+w (fr = 1, 186558197.02, DATA, CN), a (fr = 1, 186558197.02, DATA, CN), 
+l (fr = 1, 186558197.02, DATA, CN), k (fr = 1, 186558197.02, DATA, CN), 
+s (fr = 1, 186558197.02, DATA, CN), > (fr = 1, 1865581.97, RB, BM), frequency = 1.
+
+SELECTED ALIGNMENT (PATTERN ID4, CYCLE 1, PHASE 1)
+
+ID58: NSC = 559674591.07, EC = 1865581.97, CR = 300.00, CD = 557809009.10,
+Absolute P = 0
+
+0      m a r y w a l k       s   0
+       |         |           |  
+1 < #2 m         a r y r u n s > 1
+
+Sequence ID58 as flat pattern:
+
+ID58 (< #2 m a r y r u n s >)*1
+
+NSC = 559674591.07, EC = 1865581.97, CR = 300.00, CD = 557809009.10
+
+< (fr = 1, 1865581.97, LB, BM), #2 (fr = 1, 1865581.97, UID, ID), 
+m (fr = 1, 186558197.02, DATA, CN), a (fr = 1, 186558197.02, DATA, CN), 
+r (fr = 1, 186558197.02, DATA, CN), y (fr = 1, 186558197.02, DATA, CN), 
+r (fr = 1, 186558197.02, DATA, CN), u (fr = 1, 186558197.02, DATA, CN), 
+n (fr = 1, 186558197.02, DATA, CN), s (fr = 1, 186558197.02, DATA, CN), 
+> (fr = 1, 1865581.97, RB, BM), frequency = 1.
+
+SELECTED ALIGNMENT (PATTERN ID4, CYCLE 1, PHASE 1)
+
+ID59: NSC = 373116394.05, EC = 1865581.97, CR = 200.00, CD = 371250812.08,
+Absolute P = 0
+
+0 m a          r y w a l k s   0
+               |           |  
+1 < #1 j o h n r u n       s > 1
+
+Sequence ID59 as flat pattern:
+
+ID59 (< #1 j o h n r u n s >)*1
+
+NSC = 373116394.05, EC = 1865581.97, CR = 200.00, CD = 371250812.08
+
+< (fr = 1, 1865581.97, LB, BM), #1 (fr = 1, 1865581.97, UID, ID), 
+j (fr = 1, 186558197.02, DATA, CN), o (fr = 1, 186558197.02, DATA, CN), 
+h (fr = 1, 186558197.02, DATA, CN), n (fr = 1, 186558197.02, DATA, CN), 
+r (fr = 1, 186558197.02, DATA, CN), u (fr = 1, 186558197.02, DATA, CN), 
+n (fr = 1, 186558197.02, DATA, CN), s (fr = 1, 186558197.02, DATA, CN), 
+> (fr = 1, 1865581.97, RB, BM), frequency = 1.
+
+SELECTED ALIGNMENT (PATTERN ID4, CYCLE 1, PHASE 1)
+
+ID60: NSC = 186558197.02, EC = 1865581.97, CR = 100.00, CD = 184692615.05,
+Absolute P = 0
+
+0 m a r y w a l k s           0
+            |                
+1 < #4 m    a r y w a l k s > 1
+
+Sequence ID60 as flat pattern:
+
+ID60 (< #4 m a r y w a l k s >)*1
+
+NSC = 186558197.02, EC = 1865581.97, CR = 100.00, CD = 184692615.05
+
+< (fr = 1, 1865581.97, LB, BM), #4 (fr = 1, 1865581.97, UID, ID), 
+m (fr = 1, 186558197.02, DATA, CN), a (fr = 1, 186558197.02, DATA, CN), 
+r (fr = 1, 186558197.02, DATA, CN), y (fr = 1, 186558197.02, DATA, CN), 
+w (fr = 1, 186558197.02, DATA, CN), a (fr = 1, 186558197.02, DATA, CN), 
+l (fr = 1, 186558197.02, DATA, CN), k (fr = 1, 186558197.02, DATA, CN), 
+s (fr = 1, 186558197.02, DATA, CN), > (fr = 1, 1865581.97, RB, BM), frequency = 1.
+
+In the following lists, alignments that are new on this cycle
+are marked with an asterisk ('*').
+
+SELECTED ALIGNMENTS FROM PATTERN ID4, CYCLE 1, PHASE 1
+
+NO FULL_A ALIGNMENTS FROM PATTERN ID4, CYCLE 1, PHASE 1
+
+NO FULL_B ALIGNMENTS FROM PATTERN ID4, CYCLE 1, PHASE 1
+
+SELECTED PARTIAL ALIGNMENTS FROM PATTERN ID4, CYCLE 1, PHASE 1
+
+ID54*, ID55*, ID56*, ID57*, ID58*, ID59*, ID60*
+
+END OF PATTERN ID4, CYCLE 1, PHASE 1
+
+Start of learning:
+(PATTERN ID4, CYCLE 1, PHASE 1)
+
+Learning from alignment ID54 (PATTERN ID4, PHASE 1):
+
+0      m a r y w a l k s   0
+       | | | |         |  
+1 < #2 m a r y r u n   s > 1
+
+Learning from alignment ID55 (PATTERN ID4, PHASE 1):
+
+0 m a r y      w a l k s   0
+               | | | | |  
+1 < #3 j o h n w a l k s > 1
+
+Learning from alignment ID56 (PATTERN ID4, PHASE 1):
+
+0 m              a r y w a l k s   0
+                 |         | | |  
+1 < #3 j o h n w a         l k s > 1
+
+Learning from alignment ID57 (PATTERN ID4, PHASE 1):
+
+0      m a     r y w a l k s   0
+       | |     |           |  
+1 < #2 m a r y r u n       s > 1
+
+Learning from alignment ID58 (PATTERN ID4, PHASE 1):
+
+0      m a r y w a l k       s   0
+       |         |           |  
+1 < #2 m         a r y r u n s > 1
+
+Learning from alignment ID59 (PATTERN ID4, PHASE 1):
+
+0 m a          r y w a l k s   0
+               |           |  
+1 < #1 j o h n r u n       s > 1
+
+Learning from alignment ID60 (PATTERN ID4, PHASE 1):
+
+0 m a r y w a l k s           0
+            |                
+1 < #4 m    a r y w a l k s > 1
+
+From current_new_pattern ID4,
+the 'receptacle' pattern stored in Old is:
+
+ID53 (< #4 m a r y w a l k s >)*1
+
+< (fr = 0, 1865581.97, LB, BM), #4 (fr = 1, 1865581.97, UID, ID), 
+m (fr = 0, 186558197.02, DATA, CN), a (fr = 0, 186558197.02, DATA, CN), 
+r (fr = 0, 186558197.02, DATA, CN), y (fr = 0, 186558197.02, DATA, CN), 
+w (fr = 0, 186558197.02, DATA, CN), a (fr = 0, 186558197.02, DATA, CN), 
+l (fr = 0, 186558197.02, DATA, CN), k (fr = 0, 186558197.02, DATA, CN), 
+s (fr = 0, 186558197.02, DATA, CN), > (fr = 0, 1865581.97, RB, BM), frequency = 1.
+
+End of learning: (PATTERN ID4, PHASE 1)
+
+OLD PATTERNS AFTER LEARNING AND WITH GENERALISATIONS:
+
+ID5: (< #1 j o h n r u n s >)*0
+
+ID10: (< #2 m a r y r u n s >)*0
+
+ID27: (< #3 j o h n w a l k s >)*0
+
+ID53: (< #4 m a r y w a l k s >)*1
+
+OLD PATTERNS WITH DETAILS: (PATTERN ID4, PHASE 1)
+
+ID5 Coding cost: 1865581.97, (<*0 #1*0 j*0 o*0 h*0 n*0 r*0 u*0 n*0 s*0 >*0)*0
+
+ID5 (< #1 j o h n r u n s >)*0
+
+< (fr = 0, 1865581.97, LB, BM), #1 (fr = 0, 1865581.97, UID, ID), 
+j (fr = 0, 186558197.02, DATA, CN), o (fr = 0, 186558197.02, DATA, CN), 
+h (fr = 0, 186558197.02, DATA, CN), n (fr = 0, 186558197.02, DATA, CN), 
+r (fr = 0, 186558197.02, DATA, CN), u (fr = 0, 186558197.02, DATA, CN), 
+n (fr = 0, 186558197.02, DATA, CN), s (fr = 0, 186558197.02, DATA, CN), 
+> (fr = 0, 1865581.97, RB, BM), frequency = 0.
+
+ID10 Coding cost: 1865581.97, (<*0 #2*0 m*0 a*0 r*0 y*0 r*0 u*0 n*0 s*0 >*0)*0
+
+ID10 (< #2 m a r y r u n s >)*0
+
+< (fr = 0, 1865581.97, LB, BM), #2 (fr = 0, 1865581.97, UID, ID), 
+m (fr = 0, 186558197.02, DATA, CN), a (fr = 0, 186558197.02, DATA, CN), 
+r (fr = 0, 186558197.02, DATA, CN), y (fr = 0, 186558197.02, DATA, CN), 
+r (fr = 0, 186558197.02, DATA, CN), u (fr = 0, 186558197.02, DATA, CN), 
+n (fr = 0, 186558197.02, DATA, CN), s (fr = 0, 186558197.02, DATA, CN), 
+> (fr = 0, 1865581.97, RB, BM), frequency = 0.
+
+ID27 Coding cost: 1865581.97, (<*0 #3*0 j*0 o*0 h*0 n*0 w*0 a*0 l*0 k*0 s*0 >*0)*0
+
+ID27 (< #3 j o h n w a l k s >)*0
+
+< (fr = 0, 1865581.97, LB, BM), #3 (fr = 0, 1865581.97, UID, ID), 
+j (fr = 0, 186558197.02, DATA, CN), o (fr = 0, 186558197.02, DATA, CN), 
+h (fr = 0, 186558197.02, DATA, CN), n (fr = 0, 186558197.02, DATA, CN), 
+w (fr = 0, 186558197.02, DATA, CN), a (fr = 0, 186558197.02, DATA, CN), 
+l (fr = 0, 186558197.02, DATA, CN), k (fr = 0, 186558197.02, DATA, CN), 
+s (fr = 0, 186558197.02, DATA, CN), > (fr = 0, 1865581.97, RB, BM), frequency = 0.
+
+ID53 Coding cost: 1865581.97, (<*0 #4 m*0 a*0 r*0 y*0 w*0 a*0 l*0 k*0 s*0 >*0)*1
+
+ID53 (< #4 m a r y w a l k s >)*1
+
+< (fr = 0, 1865581.97, LB, BM), #4 (fr = 1, 1865581.97, UID, ID), 
+m (fr = 0, 186558197.02, DATA, CN), a (fr = 0, 186558197.02, DATA, CN), 
+r (fr = 0, 186558197.02, DATA, CN), y (fr = 0, 186558197.02, DATA, CN), 
+w (fr = 0, 186558197.02, DATA, CN), a (fr = 0, 186558197.02, DATA, CN), 
+l (fr = 0, 186558197.02, DATA, CN), k (fr = 0, 186558197.02, DATA, CN), 
+s (fr = 0, 186558197.02, DATA, CN), > (fr = 0, 1865581.97, RB, BM), frequency = 1.
+
+PHASE 2
+
+CURRENT PATTERN FROM NEW:
+
+ID4 (m a r y w a l k s)*1
+
+m (fr = 0, 186558197.02, DATA, ID), a (fr = 0, 186558197.02, DATA, ID), 
+r (fr = 0, 186558197.02, DATA, ID), y (fr = 0, 186558197.02, DATA, ID), 
+w (fr = 0, 186558197.02, DATA, ID), a (fr = 0, 186558197.02, DATA, ID), 
+l (fr = 0, 186558197.02, DATA, ID), k (fr = 0, 186558197.02, DATA, ID), 
+s (fr = 0, 186558197.02, DATA, ID), frequency = 1.
+
+START OF PATTERN ID1 (ID4), CYCLE 1, PHASE 2:
+
+NEXT DRIVING PATTERN (PATTERN ID1 (ID4), CYCLE 1, PHASE 2)
+
+ID1 (j o h n r u n s)*1
+
+STARTING make_alignments (PATTERN ID1 (ID4), CYCLE 1, PHASE 2)
+
+FINISHED make_alignments (PATTERN ID1 (ID4), CYCLE 1, PHASE 2)
+
+FOR PATTERN ID1 (ID4), CYCLE 1, PHASE 2,
+THE MAXIMUM NUMBER OF ENTRIES IN A COLUMN OF symbol_selection_array[][] IS 1
+
+STARTING purge_parsing_alignments (PATTERN ID1 (ID4), CYCLE 1, PHASE 2)
+
+Number of alignments purged = 8
+
+FINISHED purge_parsing_alignments (PATTERN ID1 (ID4), CYCLE 1, PHASE 2)
+
+SELECTED SET OF ALIGNMENTS FORMED IN PATTERN ID1 (ID4), CYCLE 1, PHASE 2
+
+SELECTED ALIGNMENT (PATTERN ID1 (ID4), CYCLE 1, PHASE 2)
+
+ID61: NSC = 1492465576.19, EC = 1865581.97, CR = 800.00, CD = 1490599994.22,
+Absolute P = 0
+
+0      j o h n r u n s   0
+       | | | | | | | |  
+1 < #1 j o h n r u n s > 1
+
+Sequence ID61 as flat pattern:
+
+ID61 (< #1 j o h n r u n s >)*1
+
+NSC = 1492465576.19, EC = 1865581.97, CR = 800.00, CD = 1490599994.22
+
+< (fr = 1, 1865581.97, LB, BM), #1 (fr = 1, 1865581.97, UID, ID), 
+j (fr = 1, 186558197.02, DATA, CN), o (fr = 1, 186558197.02, DATA, CN), 
+h (fr = 1, 186558197.02, DATA, CN), n (fr = 1, 186558197.02, DATA, CN), 
+r (fr = 1, 186558197.02, DATA, CN), u (fr = 1, 186558197.02, DATA, CN), 
+n (fr = 1, 186558197.02, DATA, CN), s (fr = 1, 186558197.02, DATA, CN), 
+> (fr = 1, 1865581.97, RB, BM), frequency = 1.
+
+In the following lists, alignments that are new on this cycle
+are marked with an asterisk ('*').
+
+SELECTED ALIGNMENTS FROM PATTERN ID1 (ID4), CYCLE 1, PHASE 2
+
+SELECTED FULL ALIGNMENTS (A) FROM PATTERN ID1 (ID4), CYCLE 1, PHASE 2
+
+ID61*
+
+NO FULL_B ALIGNMENTS FROM PATTERN ID1 (ID4), CYCLE 1, PHASE 2
+
+NO PARTIAL ALIGNMENTS FROM PATTERN ID1 (ID4), CYCLE 1, PHASE 2
+
+END OF PATTERN ID1 (ID4), CYCLE 1, PHASE 2
+
+START OF PATTERN ID1 (ID4), CYCLE 2, PHASE 2:
+
+NEXT DRIVING PATTERN (PATTERN ID1 (ID4), CYCLE 2, PHASE 2)
+
+ID61 (< #1 j o h n r u n s >)*1
+
+FOR PATTERN ID1 (ID4), CYCLE 2, PHASE 2, NO HIT SEQUENCES HAVE BEEN FOUND.
+
+Full alignments for New pattern ID1 (PATTERN ID1 (ID4), CYCLE 2, PHASE 2)
+
+FULL_A
+
+FULL_B
+
+FULL_C
+
+START OF PATTERN ID2 (ID4), CYCLE 1, PHASE 2:
+
+NEXT DRIVING PATTERN (PATTERN ID2 (ID4), CYCLE 1, PHASE 2)
+
+ID2 (m a r y r u n s)*1
+
+STARTING make_alignments (PATTERN ID2 (ID4), CYCLE 1, PHASE 2)
+
+FINISHED make_alignments (PATTERN ID2 (ID4), CYCLE 1, PHASE 2)
+
+FOR PATTERN ID2 (ID4), CYCLE 1, PHASE 2,
+THE MAXIMUM NUMBER OF ENTRIES IN A COLUMN OF symbol_selection_array[][] IS 1
+
+STARTING purge_parsing_alignments (PATTERN ID2 (ID4), CYCLE 1, PHASE 2)
+
+Number of alignments purged = 10
+
+FINISHED purge_parsing_alignments (PATTERN ID2 (ID4), CYCLE 1, PHASE 2)
+
+SELECTED SET OF ALIGNMENTS FORMED IN PATTERN ID2 (ID4), CYCLE 1, PHASE 2
+
+SELECTED ALIGNMENT (PATTERN ID2 (ID4), CYCLE 1, PHASE 2)
+
+ID70: NSC = 1492465576.19, EC = 1865581.97, CR = 800.00, CD = 1490599994.22,
+Absolute P = 0
+
+0      m a r y r u n s   0
+       | | | | | | | |  
+1 < #2 m a r y r u n s > 1
+
+Sequence ID70 as flat pattern:
+
+ID70 (< #2 m a r y r u n s >)*1
+
+NSC = 1492465576.19, EC = 1865581.97, CR = 800.00, CD = 1490599994.22
+
+< (fr = 1, 1865581.97, LB, BM), #2 (fr = 1, 1865581.97, UID, ID), 
+m (fr = 1, 186558197.02, DATA, CN), a (fr = 1, 186558197.02, DATA, CN), 
+r (fr = 1, 186558197.02, DATA, CN), y (fr = 1, 186558197.02, DATA, CN), 
+r (fr = 1, 186558197.02, DATA, CN), u (fr = 1, 186558197.02, DATA, CN), 
+n (fr = 1, 186558197.02, DATA, CN), s (fr = 1, 186558197.02, DATA, CN), 
+> (fr = 1, 1865581.97, RB, BM), frequency = 1.
+
+In the following lists, alignments that are new on this cycle
+are marked with an asterisk ('*').
+
+SELECTED ALIGNMENTS FROM PATTERN ID2 (ID4), CYCLE 1, PHASE 2
+
+SELECTED FULL ALIGNMENTS (A) FROM PATTERN ID2 (ID4), CYCLE 1, PHASE 2
+
+ID70*
+
+NO FULL_B ALIGNMENTS FROM PATTERN ID2 (ID4), CYCLE 1, PHASE 2
+
+NO PARTIAL ALIGNMENTS FROM PATTERN ID2 (ID4), CYCLE 1, PHASE 2
+
+END OF PATTERN ID2 (ID4), CYCLE 1, PHASE 2
+
+START OF PATTERN ID2 (ID4), CYCLE 2, PHASE 2:
+
+NEXT DRIVING PATTERN (PATTERN ID2 (ID4), CYCLE 2, PHASE 2)
+
+ID70 (< #2 m a r y r u n s >)*1
+
+FOR PATTERN ID2 (ID4), CYCLE 2, PHASE 2, NO HIT SEQUENCES HAVE BEEN FOUND.
+
+Full alignments for New pattern ID2 (PATTERN ID2 (ID4), CYCLE 2, PHASE 2)
+
+FULL_A
+
+FULL_B
+
+FULL_C
+
+START OF PATTERN ID3 (ID4), CYCLE 1, PHASE 2:
+
+NEXT DRIVING PATTERN (PATTERN ID3 (ID4), CYCLE 1, PHASE 2)
+
+ID3 (j o h n w a l k s)*1
+
+STARTING make_alignments (PATTERN ID3 (ID4), CYCLE 1, PHASE 2)
+
+FINISHED make_alignments (PATTERN ID3 (ID4), CYCLE 1, PHASE 2)
+
+FOR PATTERN ID3 (ID4), CYCLE 1, PHASE 2,
+THE MAXIMUM NUMBER OF ENTRIES IN A COLUMN OF symbol_selection_array[][] IS 1
+
+STARTING purge_parsing_alignments (PATTERN ID3 (ID4), CYCLE 1, PHASE 2)
+
+Number of alignments purged = 6
+
+FINISHED purge_parsing_alignments (PATTERN ID3 (ID4), CYCLE 1, PHASE 2)
+
+SELECTED SET OF ALIGNMENTS FORMED IN PATTERN ID3 (ID4), CYCLE 1, PHASE 2
+
+SELECTED ALIGNMENT (PATTERN ID3 (ID4), CYCLE 1, PHASE 2)
+
+ID81: NSC = 1679023773.22, EC = 1865581.97, CR = 900.00, CD = 1677158191.25,
+Absolute P = 0
+
+0      j o h n w a l k s   0
+       | | | | | | | | |  
+1 < #3 j o h n w a l k s > 1
+
+Sequence ID81 as flat pattern:
+
+ID81 (< #3 j o h n w a l k s >)*1
+
+NSC = 1679023773.22, EC = 1865581.97, CR = 900.00, CD = 1677158191.25
+
+< (fr = 1, 1865581.97, LB, BM), #3 (fr = 1, 1865581.97, UID, ID), 
+j (fr = 1, 186558197.02, DATA, CN), o (fr = 1, 186558197.02, DATA, CN), 
+h (fr = 1, 186558197.02, DATA, CN), n (fr = 1, 186558197.02, DATA, CN), 
+w (fr = 1, 186558197.02, DATA, CN), a (fr = 1, 186558197.02, DATA, CN), 
+l (fr = 1, 186558197.02, DATA, CN), k (fr = 1, 186558197.02, DATA, CN), 
+s (fr = 1, 186558197.02, DATA, CN), > (fr = 1, 1865581.97, RB, BM), frequency = 1.
+
+In the following lists, alignments that are new on this cycle
+are marked with an asterisk ('*').
+
+SELECTED ALIGNMENTS FROM PATTERN ID3 (ID4), CYCLE 1, PHASE 2
+
+SELECTED FULL ALIGNMENTS (A) FROM PATTERN ID3 (ID4), CYCLE 1, PHASE 2
+
+ID81*
+
+NO FULL_B ALIGNMENTS FROM PATTERN ID3 (ID4), CYCLE 1, PHASE 2
+
+NO PARTIAL ALIGNMENTS FROM PATTERN ID3 (ID4), CYCLE 1, PHASE 2
+
+END OF PATTERN ID3 (ID4), CYCLE 1, PHASE 2
+
+START OF PATTERN ID3 (ID4), CYCLE 2, PHASE 2:
+
+NEXT DRIVING PATTERN (PATTERN ID3 (ID4), CYCLE 2, PHASE 2)
+
+ID81 (< #3 j o h n w a l k s >)*1
+
+FOR PATTERN ID3 (ID4), CYCLE 2, PHASE 2, NO HIT SEQUENCES HAVE BEEN FOUND.
+
+Full alignments for New pattern ID3 (PATTERN ID3 (ID4), CYCLE 2, PHASE 2)
+
+FULL_A
+
+FULL_B
+
+FULL_C
+
+START OF PATTERN ID4 (ID4), CYCLE 1, PHASE 2:
+
+NEXT DRIVING PATTERN (PATTERN ID4 (ID4), CYCLE 1, PHASE 2)
+
+ID4 (m a r y w a l k s)*1
+
+STARTING make_alignments (PATTERN ID4 (ID4), CYCLE 1, PHASE 2)
+
+FINISHED make_alignments (PATTERN ID4 (ID4), CYCLE 1, PHASE 2)
+
+FOR PATTERN ID4 (ID4), CYCLE 1, PHASE 2,
+THE MAXIMUM NUMBER OF ENTRIES IN A COLUMN OF symbol_selection_array[][] IS 1
+
+STARTING purge_parsing_alignments (PATTERN ID4 (ID4), CYCLE 1, PHASE 2)
+
+Number of alignments purged = 8
+
+FINISHED purge_parsing_alignments (PATTERN ID4 (ID4), CYCLE 1, PHASE 2)
+
+SELECTED SET OF ALIGNMENTS FORMED IN PATTERN ID4 (ID4), CYCLE 1, PHASE 2
+
+SELECTED ALIGNMENT (PATTERN ID4 (ID4), CYCLE 1, PHASE 2)
+
+ID88: NSC = 1679023773.22, EC = 1865581.97, CR = 900.00, CD = 1677158191.25,
+Absolute P = 0
+
+0      m a r y w a l k s   0
+       | | | | | | | | |  
+1 < #4 m a r y w a l k s > 1
+
+Sequence ID88 as flat pattern:
+
+ID88 (< #4 m a r y w a l k s >)*1
+
+NSC = 1679023773.22, EC = 1865581.97, CR = 900.00, CD = 1677158191.25
+
+< (fr = 1, 1865581.97, LB, BM), #4 (fr = 1, 1865581.97, UID, ID), 
+m (fr = 1, 186558197.02, DATA, CN), a (fr = 1, 186558197.02, DATA, CN), 
+r (fr = 1, 186558197.02, DATA, CN), y (fr = 1, 186558197.02, DATA, CN), 
+w (fr = 1, 186558197.02, DATA, CN), a (fr = 1, 186558197.02, DATA, CN), 
+l (fr = 1, 186558197.02, DATA, CN), k (fr = 1, 186558197.02, DATA, CN), 
+s (fr = 1, 186558197.02, DATA, CN), > (fr = 1, 1865581.97, RB, BM), frequency = 1.
+
+In the following lists, alignments that are new on this cycle
+are marked with an asterisk ('*').
+
+SELECTED ALIGNMENTS FROM PATTERN ID4 (ID4), CYCLE 1, PHASE 2
+
+SELECTED FULL ALIGNMENTS (A) FROM PATTERN ID4 (ID4), CYCLE 1, PHASE 2
+
+ID88*
+
+NO FULL_B ALIGNMENTS FROM PATTERN ID4 (ID4), CYCLE 1, PHASE 2
+
+NO PARTIAL ALIGNMENTS FROM PATTERN ID4 (ID4), CYCLE 1, PHASE 2
+
+END OF PATTERN ID4 (ID4), CYCLE 1, PHASE 2
+
+START OF PATTERN ID4 (ID4), CYCLE 2, PHASE 2:
+
+NEXT DRIVING PATTERN (PATTERN ID4 (ID4), CYCLE 2, PHASE 2)
+
+ID88 (< #4 m a r y w a l k s >)*1
+
+FOR PATTERN ID4 (ID4), CYCLE 2, PHASE 2, NO HIT SEQUENCES HAVE BEEN FOUND.
+
+Full alignments for New pattern ID4 (PATTERN ID4 (ID4), CYCLE 2, PHASE 2)
+
+FULL_A
+
+FULL_B
+
+FULL_C
+
+START OF SIFTING AND SORTING (PATTERN ID4, PHASE 2)
+
+CUMULATIVE 'FULL_A' ALIGNMENTS FROM PARSING (PATTERN ID4, PHASE 2):
+
+PATTERNS IN OLD (PATTERN ID4, PHASE 2):
+
+ID5 (< #1 j o h n r u n s >)*0
+
+ID10 (< #2 m a r y r u n s >)*0
+
+ID27 (< #3 j o h n w a l k s >)*0
+
+ID53 (< #4 m a r y w a l k s >)*0
+
+FREQUENCIES OF SYMBOL TYPES IN OLD PATTERNS
+AND INFORMATION COSTS (IN BITS)
+(PATTERN ID4, PHASE 2)
+
+#1, Fr = 0, bit_cost = 135254692.84
+#2, Fr = 0, bit_cost = 135254692.84
+#3, Fr = 0, bit_cost = 135254692.84
+#4, Fr = 0, bit_cost = 135254692.84
+<, Fr = 0, bit_cost = 135254692.84
+>, Fr = 0, bit_cost = 135254692.84
+a, Fr = 0, bit_cost = 13525469284.26
+h, Fr = 0, bit_cost = 13525469284.26
+j, Fr = 0, bit_cost = 13525469284.26
+k, Fr = 0, bit_cost = 13525469284.26
+l, Fr = 0, bit_cost = 13525469284.26
+m, Fr = 0, bit_cost = 13525469284.26
+n, Fr = 0, bit_cost = 13525469284.26
+o, Fr = 0, bit_cost = 13525469284.26
+r, Fr = 0, bit_cost = 13525469284.26
+s, Fr = 0, bit_cost = 13525469284.26
+u, Fr = 0, bit_cost = 13525469284.26
+w, Fr = 0, bit_cost = 13525469284.26
+y, Fr = 0, bit_cost = 13525469284.26
+
+Average of bit_costs for symbol types = 9296980465.92
+
+NEW FREQUENCIES AND COSTS ASSIGNED TO PATTERNS AND SYMBOLS:
+
+OLD PATTERNS WITH DETAILS (PATTERN ID4, PHASE 2)
+
+ID5 Coding cost: 1865581.97, (<*0 #1*0 j*0 o*0 h*0 n*0 r*0 u*0 n*0 s*0 >*0)*0
+
+ID5 (< #1 j o h n r u n s >)*0
+
+< (fr = 0, 135254692.84, LB, BM), #1 (fr = 0, 135254692.84, UID, ID), 
+j (fr = 0, 13525469284.26, DATA, CN), o (fr = 0, 13525469284.26, DATA, CN), 
+h (fr = 0, 13525469284.26, DATA, CN), n (fr = 0, 13525469284.26, DATA, CN), 
+r (fr = 0, 13525469284.26, DATA, CN), u (fr = 0, 13525469284.26, DATA, CN), 
+n (fr = 0, 13525469284.26, DATA, CN), s (fr = 0, 13525469284.26, DATA, CN), 
+> (fr = 0, 135254692.84, RB, BM), frequency = 0.
+
+ID10 Coding cost: 1865581.97, (<*0 #2*0 m*0 a*0 r*0 y*0 r*0 u*0 n*0 s*0 >*0)*0
+
+ID10 (< #2 m a r y r u n s >)*0
+
+< (fr = 0, 135254692.84, LB, BM), #2 (fr = 0, 135254692.84, UID, ID), 
+m (fr = 0, 13525469284.26, DATA, CN), a (fr = 0, 13525469284.26, DATA, CN), 
+r (fr = 0, 13525469284.26, DATA, CN), y (fr = 0, 13525469284.26, DATA, CN), 
+r (fr = 0, 13525469284.26, DATA, CN), u (fr = 0, 13525469284.26, DATA, CN), 
+n (fr = 0, 13525469284.26, DATA, CN), s (fr = 0, 13525469284.26, DATA, CN), 
+> (fr = 0, 135254692.84, RB, BM), frequency = 0.
+
+ID27 Coding cost: 1865581.97, (<*0 #3*0 j*0 o*0 h*0 n*0 w*0 a*0 l*0 k*0 s*0 >*0)*0
+
+ID27 (< #3 j o h n w a l k s >)*0
+
+< (fr = 0, 135254692.84, LB, BM), #3 (fr = 0, 135254692.84, UID, ID), 
+j (fr = 0, 13525469284.26, DATA, CN), o (fr = 0, 13525469284.26, DATA, CN), 
+h (fr = 0, 13525469284.26, DATA, CN), n (fr = 0, 13525469284.26, DATA, CN), 
+w (fr = 0, 13525469284.26, DATA, CN), a (fr = 0, 13525469284.26, DATA, CN), 
+l (fr = 0, 13525469284.26, DATA, CN), k (fr = 0, 13525469284.26, DATA, CN), 
+s (fr = 0, 13525469284.26, DATA, CN), > (fr = 0, 135254692.84, RB, BM), frequency = 0.
+
+ID53 Coding cost: 1865581.97, (<*0 #4*0 m*0 a*0 r*0 y*0 w*0 a*0 l*0 k*0 s*0 >*0)*0
+
+ID53 (< #4 m a r y w a l k s >)*0
+
+< (fr = 0, 135254692.84, LB, BM), #4 (fr = 0, 135254692.84, UID, ID), 
+m (fr = 0, 13525469284.26, DATA, CN), a (fr = 0, 13525469284.26, DATA, CN), 
+r (fr = 0, 13525469284.26, DATA, CN), y (fr = 0, 13525469284.26, DATA, CN), 
+w (fr = 0, 13525469284.26, DATA, CN), a (fr = 0, 13525469284.26, DATA, CN), 
+l (fr = 0, 13525469284.26, DATA, CN), k (fr = 0, 13525469284.26, DATA, CN), 
+s (fr = 0, 13525469284.26, DATA, CN), > (fr = 0, 135254692.84, RB, BM), frequency = 0.
+
+START OF COMPILING ALTERNATIVE GRAMMARS:
+
+Encoding costs for New patterns:
+
+ID1: 108203754274.11 (j o h n r u n s)
+
+ID2: 108203754274.11 (m a r y r u n s)
+
+ID3: 121729223558.37 (j o h n w a l k s)
+
+ID4: 121729223558.37 (m a r y w a l k s)
+
+Encoding costs for Old patterns:
+
+ID5: 135254692.84 (< #1 j o h n r u n s >)*0
+
+ID10: 135254692.84 (< #2 m a r y r u n s >)*0
+
+ID27: 135254692.84 (< #3 j o h n w a l k s >)*0
+
+ID53: 135254692.84 (< #4 m a r y w a l k s >)*0
+
+Cumulative parsing alignments in order of CD:
+
+
+FINAL GRAMMARS (PATTERN ID4, PHASE 2):
+
+No grammars formed.
+
+CLEANING AND TIDYING OF BEST GRAMMARS:
+
+END OF SIFTING AND SORTING (PATTERN ID4, PHASE 2)
+
+All alignments are deleted ready for next New pattern.
+
+END OF PATTERN ID4, PHASE 2
+
+OLD PATTERNS:
+
+ID5: (< #1 j o h n r u n s >)*0
+
+ID10: (< #2 m a r y r u n s >)*0
+
+ID27: (< #3 j o h n w a l k s >)*0
+
+ID53: (< #4 m a r y w a l k s >)*0
+
+Size of corpus at start = 12581.50 bits.
+
+Size of best grammar = 0.00 bits.
+
+No grammar produced in repeat_cpas().
+
+STATISTICS
+
+Original size of alphabet = 13
+
+Final size of alphabet = 19
+
+Original number of patterns in Old = 0
+
+Final number of patterns in Old = 4
+
