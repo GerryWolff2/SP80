@@ -5,7 +5,7 @@ The most detailed descriptions of the thinking behind the SP Theory of Intellige
 
 In the book, the main chapters to look at are Chapters 3 and 9 but there is lots of relevant information in the rest of the book. 
 
-Copies of the ebook or the printed book may be obtained from sources listed in http://www.cognitionresearch.org/books/sp_book/retailers.htm , including Amazon. A point to note about the printed book is that it is produced by print-on-demand by Lightning Source (UK) Ltd., Milton Keynes, UK. This has several advantages and is very fast but this feature of the book may need to be explained to some retailers, otherwise they may say, wrongly, that it is out of print. One of the several advantages of print-on-demand is that the book never goes out of print.
+Copies of the electronic edition or the printed edition may be obtained from sources listed in http://www.cognitionresearch.org/books/sp_book/retailers.htm , including Amazon. A point to note about the printed book is that it is produced by print-on-demand by Lightning Source (UK) Ltd., Milton Keynes, UK. This has several advantages and is very fast but this feature of the book may need to be explained to some retailers, otherwise they may say, wrongly, that it is out of print. One of the several advantages of print-on-demand is that the book never goes out of print.
 
 There is also relevant information in "The SP Theory of Intelligence: an overview" (PDF, Information, 4 (3), 283-341, 2013, bit.ly/1NOMJ6l), especially Sections 3, 4, and 5. This peer-reviewed paper is essentially a version of the book that is reduced in size. Inevitably, some useful information has been omitted.
 
