@@ -1,0 +1,18 @@
+KEY
+
+END_KEY
+
+[ 
+	[
+		(this boy loves that girl)
+		(that boy loves this girl)
+		(this girl loves that boy)
+		(that girl loves this boy)
+		(this boy hates that girl)
+		(that boy hates this girl)
+		(this girl hates that boy)
+		(that girl hates this boy)
+	]
+	[
+	]
+]

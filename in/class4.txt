@@ -1,0 +1,12 @@
+KEY
+
+END_KEY
+
+[ 
+	[
+		(a1 a2 a b c w x d e f y z g h i i1 i2)
+		(a3 a4 a b c p q d e f r s g h i i5 i6)
+	]
+	[
+	]
+]

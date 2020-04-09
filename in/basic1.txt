@@ -1,0 +1,17 @@
+KEY
+
+END_KEY
+
+[ 
+	[(t h i s b o y l o v e s t h a t g i r l)]
+	[
+		(S NP #NP V #V NP #NP #S)*500
+		(NP D #D N #N #NP)*1000
+		(D 0 t h i s #D)*600
+		(D 1 t h a t #D)*400
+		(N 0 g i r l #N)*300
+		(N 1 b o y #N)*700
+		(V 0 l o v e s #V)*650
+		(V 1 h a t e s #V)*350
+	]
+]

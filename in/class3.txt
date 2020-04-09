@@ -1,0 +1,14 @@
+KEY
+
+END_KEY
+
+[ 
+	[
+		(backbone fur milk mammal barks dog)
+		(backbone fur milk mammal purrs cat)
+		(backbone wings feathers beak bird canfly eagle)
+		(backbone wings feathers beak bird cannotfly penguin)
+	]
+	[
+	]
+]

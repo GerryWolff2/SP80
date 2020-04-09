@@ -1,0 +1,18 @@
+KEY
+
+END_KEY
+
+[ 
+	[
+		(John loves Mary)
+		(Mary loves John)
+		(John is loved by Mary)
+		(Mary is loved by John)
+		(he loves her)
+		(she loves him)
+		(he is loved by her)
+		(she is loved by him)
+	]
+	[
+	]
+]

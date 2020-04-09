@@ -1,0 +1,22 @@
+KEY
+
+END_KEY
+
+[ 
+	[
+		(w e r u n)
+		(w e w a l k)
+		(y o u r u n)
+		(y o u w a l k)
+		(w e r u n f a s t)
+		(w e r u n s l o w l y)
+		(w e w a l k f a s t)
+		(w e w a l k s l o w l y)
+		(y o u r u n f a s t)
+		(y o u r u n s l o w l y)
+		(y o u w a l k f a s t)
+		(y o u w a l k s l o w l y)
+	]
+	[
+	]
+]

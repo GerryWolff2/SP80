@@ -1,0 +1,12 @@
+KEY
+
+END_KEY
+
+[ 
+	[
+		(w e r u n f a s t)
+		(w e w a l k f a s t)
+	]
+	[
+	]
+]

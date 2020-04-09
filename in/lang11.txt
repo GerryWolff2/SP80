@@ -1,0 +1,42 @@
+KEY
+
+END_KEY
+
+[ 
+	[
+		(t h e d o g c h a s e d a r a b b i t)
+		(t h e d o g c h a s e d a d o g)
+		(t h e d o g c h a s e d t h e r a b b i t)
+		(t h e d o g c h a s e d t h e d o g)
+		(t h e d o g w a t c h e s a r a b b i t)
+		(t h e d o g w a t c h e s a d o g)
+		(t h e d o g w a t c h e s t h e r a b b i t)
+		(t h e d o g w a t c h e s t h e d o g)
+		(t h e r a b b i t c h a s e d a r a b b i t)
+		(t h e r a b b i t c h a s e d a d o g)
+		(t h e r a b b i t c h a s e d t h e r a b b i t)
+		(t h e r a b b i t c h a s e d t h e d o g)
+		(t h e r a b b i t w a t c h e s a r a b b i t)
+		(t h e r a b b i t w a t c h e s a d o g)
+		(t h e r a b b i t w a t c h e s t h e r a b b i t)
+		(t h e r a b b i t w a t c h e s t h e d o g)
+		(a d o g c h a s e d a r a b b i t)
+		(a d o g c h a s e d a d o g)
+		(a d o g c h a s e d t h e r a b b i t)
+		(a d o g c h a s e d t h e d o g)
+		(a d o g w a t c h e s a r a b b i t)
+		(a d o g w a t c h e s a d o g)
+		(a d o g w a t c h e s t h e r a b b i t)
+		(a d o g w a t c h e s t h e d o g)
+		(a r a b b i t c h a s e d a r a b b i t)
+		(a r a b b i t c h a s e d a d o g)
+		(a r a b b i t c h a s e d t h e r a b b i t)
+		(a r a b b i t c h a s e d t h e d o g)
+		(a r a b b i t w a t c h e s a r a b b i t)
+		(a r a b b i t w a t c h e s a d o g)
+		(a r a b b i t w a t c h e s t h e r a b b i t)
+		(a r a b b i t w a t c h e s t h e d o g)
+	]
+	[
+	]
+]

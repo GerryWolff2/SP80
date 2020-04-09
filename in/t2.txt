@@ -1,0 +1,12 @@
+KEY
+
+END_KEY
+
+[ 
+	[
+		(a b c p q r g h i)
+	]
+	[
+		(< !1 a b c x y z g h i >)
+	]
+]

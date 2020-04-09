@@ -1,0 +1,12 @@
+KEY
+
+END_KEY
+
+[ 
+	[
+		(t h a t b i g h o u s e)
+		(t h a t s m a l l h o u s e)
+    ]
+	[
+	]
+]

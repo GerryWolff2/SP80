@@ -1,0 +1,14 @@
+KEY
+
+END_KEY
+
+[ 
+	[
+		(John Jones walks)
+		(John Jones ran)
+		(John Smith walks)
+		(John Smith ran)
+	]
+	[
+	]
+]

@@ -1,0 +1,26 @@
+KEY
+
+END_KEY
+
+[ 
+	[
+		(t h e d o g r u n s)
+		(t h e d o g s a t)
+		(t h e m o u s e r u n s)
+		(t h e m o u s e s a t)
+		(a d o g r u n s)
+		(a d o g s a t)
+		(a m o u s e r u n s)
+		(a m o u s e s a t)
+		(b u y t h e d o g)
+		(b u y t h e m o u s e)
+		(b u y a d o g)
+		(b u y a m o u s e)
+		(f e e d t h e d o g)
+		(f e e d t h e m o u s e)
+		(f e e d a d o g)
+		(f e e d a m o u s e)
+	]
+	[
+	]
+]

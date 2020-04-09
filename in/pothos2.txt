@@ -1,0 +1,20 @@
+KEY
+
+END_KEY
+
+[
+	[
+		(V X X X X)
+		(M V X)
+		(M S S V)
+		(M S X S)
+		(M S V)
+		(M S V)
+		(M S S S V) 
+		(V X M)
+		(V X V X)
+		(M S V S V)
+	]
+	[
+	]
+]

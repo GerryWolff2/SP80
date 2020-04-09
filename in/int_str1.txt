@@ -1,0 +1,14 @@
+KEY
+
+END_KEY
+
+[ 
+	[
+		(t h e f a t l a d y s i n g s)
+		(t h e t a l l l a d y s i n g s)
+		(t h e f a t l a d y r a n)
+		(t h e t a l l l a d y r a n)
+	]
+	[
+	]
+]
